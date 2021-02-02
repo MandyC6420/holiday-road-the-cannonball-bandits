@@ -1,0 +1,17 @@
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+}
+
+.parksList{
+    border: 1px solid black
+}
+
+.attractionsList{
+    border: 1px solid black
+}
+
+.eateryList{
+    border: 1px solid black
+}
