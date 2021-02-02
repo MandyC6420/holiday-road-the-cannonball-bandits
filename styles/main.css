@@ -4,6 +4,7 @@
   border: 1px solid black;
 }
 
+
 .parksList{
     border: 1px solid black
 }
@@ -13,5 +14,14 @@
 }
 
 .eateryList{
-    border: 1px solid black
+    border: 1px solid black;
+    text-align: center;
+}
+
+#card-div{
+    flex-basis: 30%
+}
+
+footer {
+    text-align: center;
 }
