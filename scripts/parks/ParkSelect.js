@@ -1,5 +1,6 @@
 import {getParks, useParks} from "./ParkProvider.js"
 import {parkCard} from "./Park.js"
+import { getWeather } from "../weather/WeatherProvider.js"
 
 //reference in HTML where the <select> will be rendered
 const parksTarget = document.querySelector(".parks-Dropdown")
@@ -42,7 +43,9 @@ parksTarget.addEventListener("change",(changeEvent) => {
         //if they match, the parkCard function-defined on Park.js that creates the HTML is inserted into the parks.list div and will show in the DOM
         if(currentParkInLoop.fullName === changeEvent.target.value){
             document.querySelector(".parksList").innerHTML = parkCard(currentParkInLoop)
+        getWeather(currentParkInLoop.addresses[0].postalCode)
         }
+        
     }
     }
 )
