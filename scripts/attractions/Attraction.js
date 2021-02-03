@@ -1,3 +1,5 @@
+import { getAttractions, useAttractions } from "./AttractionProvider.js"
+
 //building an html representation of data needed from the attractionCollection
 
 export const attraction = (attractionName) => {
@@ -21,3 +23,4 @@ export const attraction = (attractionName) => {
 //   </div>
 // </div> 
 // }
+
