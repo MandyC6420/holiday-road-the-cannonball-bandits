@@ -6,9 +6,12 @@ import { getEateries, useEateries} from "./EateryProvider.js"
 
 let detailsContainer = document.querySelector(".modal-body")
 
+
+
 export const eateryCard = (eateryObject) => {
 
    
+
     return `
     
     <h2>${eateryObject.businessName}</h2>
@@ -18,15 +21,10 @@ export const eateryCard = (eateryObject) => {
 
    `
 
-
+ 
+    
+   
+  
 }
 
-getEateries()
-let eateries = useEateries()
-for(const eatery of eateries){
-    if(eatery.businessName === eateryObject.businessName){
-        detailsContainer.innerHTML = `
-        <h1>info here</h1>
-        `
-    }
-}
+
