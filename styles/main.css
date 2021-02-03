@@ -13,7 +13,9 @@
 }
 
 .attractionsList{
-    border: 1px solid black
+    border: 1px solid black;
+    text-align:center;
+    padding: 1em;
 }
 
 .eateryList{
@@ -53,4 +55,10 @@ footer {
 select {
     height: 4.5vh;
 }
+
+.attraction-image{
+    max-width: 75%;
+}
+
+
 
