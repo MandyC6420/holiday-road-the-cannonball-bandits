@@ -5,5 +5,6 @@ useAttractions()
 
 import { AttractionSelect } from "./attractions/AttractionSelect.js"
 AttractionSelect()
+
 import { attraction } from "./attractions/Attraction.js"
-attraction()
+// attraction()

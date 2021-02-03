@@ -1,3 +1,5 @@
+//building an html representation of data needed from the attractionCollection
+
 export const attraction = (attractionObject) => {
     return`
      <ul>
