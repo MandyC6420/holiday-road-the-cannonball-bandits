@@ -1,9 +1,6 @@
 // importing functions from ""
 
-import {
-  getAttractions,
-  useAttractions,
-} from "/scripts/attractions/AttractionProvider.js";
+import { getAttractions, useAttractions } from "./AttractionProvider.js";
 import { attraction } from "./Attraction.js";
 
 // Get a reference to the DOM element where the <select> will be rendered
@@ -27,11 +24,11 @@ export const AttractionSelect = () => {
 const render = (attractionCollection) => {
   // building attractions dropdown
   //this is the target where the HTML is going to live--defined line 8
-  //.map is looping over the array attractionCollection 
+  //.map is looping over the array attractionCollection
   //it is taking in the parameter of attractionObject
   contentTarget.innerHTML = `
     <select class="dropdown" id="AttractionSelect">
-            <option value="0">Please select an attraction...</option>
+            <option value="">Please select an attraction...</option>
                ${attractionCollection.map((attractionObject) => {
                  const attraction = attractionObject.name;
                  return `<option>${attraction}</option>`;
@@ -41,13 +38,21 @@ const render = (attractionCollection) => {
             `;
 };
 
-const eventHub = document.querySelector("body");
+//creating event listener; eventHub variable declares where the listener will be active
+const eventHub = document.querySelector(".attractions-Dropdown");
+////adds event listener to eventHub and designates it as a change event; this will trigger the data for the selected item to populate in the div
 eventHub.addEventListener("change", (eventObject) => {
+  console.log("You selected an item from", eventObject.target.value);
+  // tests to see if listener is detecting change as expected when dropdown item changes
   if (eventObject.target.id === "AttractionSelect") {
     const attractionChosen = eventObject.target.value;
     console.log(eventObject.target.value);
     // debugger
     attraction(attractionChosen);
+
+    document.querySelector(".attractionsList").innerHTML = attraction(
+      attractionChosen
+    );
   }
 });
 
