@@ -1,4 +1,5 @@
 import {getParks, useParks} from "./ParkProvider.js"
+import {parkCard} from "./Park.js"
 
 //reference in HTML where the <select> will be rendered
 const parksTarget = document.querySelector(".parks-Dropdown")
@@ -6,10 +7,10 @@ const parksTarget = document.querySelector(".parks-Dropdown")
 //define a function of ParkSelect
 export const ParkSelect = () => {
     getParks().then(() => {
-        let parksArray = useParks()
-       //passing the parksArray into the function of render
-        render (parksArray)
-        console.log(parksArray[10])
+        let allTheParks = useParks()
+       //passing the allTheParks into the function of render
+        render (allTheParks)
+        
     })
 }
 
@@ -20,17 +21,28 @@ const render = parksCollection => {
     <select class="dropdown" id="ParkSelectDropdown">
     <option value="0">Please select a park...</option>
     ${parksCollection.map((currentParkInLoop) => { 
-        return `<option>${currentParkInLoop}</option>`}
+        return `<option>${currentParkInLoop.fullName}</option>`}
 
     )}
     </select>`
 }
 
+
+
+
 //"change" is the type of event on my addEventListener
 //changeEvent is the parameter on my callback function
 parksTarget.addEventListener("change",(changeEvent) => {
-    if(changeEvent.target.value === "ParkSelectDropdown") {
-        console.log("This is the park that was selected: ", changeEvent.target.value)
+    console.log("i clicked this park" ,changeEvent.target.value)
+    //declared a variable for the array produced by useParks
+    let allTheParks = useParks()
+    //looping through the array of allTheParks
+    for(const currentParkInLoop of allTheParks){
+        //creates a conditional to compare the park name against the changeEvent.target.value
+        //if they match, the parkCard function-defined on Park.js that creates the HTML is inserted into the parks.list div and will show in the DOM
+        if(currentParkInLoop.fullName === changeEvent.target.value){
+            document.querySelector(".parksList").innerHTML = parkCard(currentParkInLoop)
+        }
     }
-}
+    }
 )
