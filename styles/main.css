@@ -60,5 +60,7 @@ select {
     max-width: 75%;
 }
 
-
+.wide-modal {
+    width: 70vw
+}
 

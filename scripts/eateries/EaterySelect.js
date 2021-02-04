@@ -58,6 +58,17 @@ eventHub.addEventListener("change", changeEvent => {
         if(eatery.businessName === changeEvent.target.value){
             document.querySelector(".eateryList").innerHTML = eateryCard(eatery)
         }
+        else if(changeEvent.target.value == 0){
+            document.querySelector(".eateryList").innerHTML = `
+            <h1>Choose an eatery.</h1>
+            <h4>Add a restaurant to your itinerary using the dropbox above.</h4>
+            <img
+            class="eatery-image"
+            src="../images/restaurant-clipart.jpg"
+            alt="drawing-of-restaurant"
+          />
+            `
+        }
         
     }
    
