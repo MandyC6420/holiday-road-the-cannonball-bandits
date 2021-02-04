@@ -1,6 +1,7 @@
 import {getParks, useParks} from "./ParkProvider.js"
 import {parkCard} from "./Park.js"
-import { getWeather } from "../weather/WeatherProvider.js"
+import { getWeather, useWeather } from "../weather/WeatherProvider.js"
+import {weatherCard} from "../weather/Weather.js"
 
 //reference in HTML where the <select> will be rendered
 const parksTarget = document.querySelector(".parks-Dropdown")
@@ -37,15 +38,25 @@ parksTarget.addEventListener("change",(changeEvent) => {
     console.log("i clicked this park" ,changeEvent.target.value)
     //declared a variable for the array produced by useParks
     let allTheParks = useParks()
+    
     //looping through the array of allTheParks
     for(const currentParkInLoop of allTheParks){
         //creates a conditional to compare the park name against the changeEvent.target.value
-        //if they match, the parkCard function-defined on Park.js that creates the HTML is inserted into the parks.list div and will show in the DOM
+        //if they match, the parkCard function-defined on Park.js that creates the HTML is inserted into the parks.list div and will print in the DOM
         if(currentParkInLoop.fullName === changeEvent.target.value){
-            document.querySelector(".parksList").innerHTML = parkCard(currentParkInLoop)
+            document.querySelector(".parksList").innerHTML = parkCard(currentParkInLoop);
+        }
         getWeather(currentParkInLoop.addresses[0].postalCode)
+        document.querySelector(".weatherList").innerHTML = weatherCard(currentParkInLoop)
+
         }
         
     }
-    }
+    
 )
+// let allTheWeather = useWeather()
+// for(const currentWeatherInLoop of allTheWeather){
+//     if(currentWeatherInLoop === changeEvent.target.value){
+//         document.querySelector(".parksList").innerHTML = weatherCard(currentWeatherInLoop)
+//     }
+// }

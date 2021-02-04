@@ -1,5 +1,5 @@
 import {Settings} from "../Settings.js"
-import {getParks, useParks} from "../parks/ParkProvider.js"
+
 
 //created a weatherArray where all the weather data will go
 let weatherArray = []
@@ -19,8 +19,8 @@ export const getWeather = (zipCode) => {
         .then(response => response.json())
         .then(
             parsedWeather => {
-                console.log(parsedWeather)
-                weatherArray = parsedWeather
+                console.log(parsedWeather.list)
+                weatherArray = parsedWeather.list
             }
         )
     }
