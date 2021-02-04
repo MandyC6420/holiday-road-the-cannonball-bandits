@@ -21,7 +21,7 @@ const render = parksCollection => {
     //building the dropdown menu for parks for the DOM
     parksTarget.innerHTML = `
     <select class="dropdown" id="ParkSelectDropdown">
-    <option value="0">Please select a park...</option>
+    <option value="">Please select a park...</option>
     ${parksCollection.map((currentParkInLoop) => { 
         return `<option>${currentParkInLoop.fullName}</option>`}
 

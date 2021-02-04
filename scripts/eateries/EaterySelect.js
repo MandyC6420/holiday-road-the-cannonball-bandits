@@ -49,18 +49,16 @@ const eventHub = document.querySelector(".eateries-Dropdown")
 //adds event listener to eventHub and designates it as a change event; this will trigger the data for the selected item to populate in the div
 
 eventHub.addEventListener("change", changeEvent => {
-    // tests to see if listener is detecting change as expected when dropdown item changes
+    //console log when the dropdown item is changed; tests to see if listener is detecting change as expected
     console.log("you selected an item from", changeEvent.target.value)
+
     
-   //declares a variable for the array produced by useEateries
-   //for-loops through the array
-   //creates a conditional to evaluate the business' name against the changeEvent's value
-   //if they match, the eateryCard function that creates the HTML is inserted into the eateryList div
-    let eateries = useEateries()
+   let eateries = useEateries()
     for(const eatery of eateries){
         if(eatery.businessName === changeEvent.target.value){
             document.querySelector(".eateryList").innerHTML = eateryCard(eatery)
         }
+        
     }
    
 
