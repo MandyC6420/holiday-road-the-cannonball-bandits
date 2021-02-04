@@ -48,41 +48,73 @@ eventHub.addEventListener("change", (attractionObject) => {
   if (attractionObject.target.id === "AttractionSelect") {
     const attractionChosen = attractionObject.target.value;
     console.log(attractionObject.target.value);
-    
-    attraction(attractionChosen);
+
+    // attraction(attractionChosen);
 
     document.querySelector(".attractionsList").innerHTML = attraction(
       attractionChosen
-      
     );
-  } document.querySelector(".attraction-more-details").innerHTML = ""
+  }
+  document.querySelector(".attraction-more-details").innerHTML = "";
+});
 
-// document.querySelector(".attraction-more-details").addEventListener("click", (attractionDeets) => {
-//     if (attractionDeets.target.id.includes("#attractionDetailsButton")) {
-//       debugger;
-//       console.log(attractionDeets);
-//       getAttractions().then(() => {
-//         let attractionHTML = "";
-//         let allAttractions = useAttractions();
-//         allAttractions.filter((currentAttraction) => {
-//           console.log(attractionDeets.target.id[1]);
-//           if ((parseInt(attractionDeets) = currentAttraction))
-//             attractionHTML += attractionDetails(currentAttraction);
-//         });
-//         document.querySelector(
-//           ".attraction-more-details"
-//         ).innerHTML = attractionHTML;
-//       });
-//     }
-//   });
+//target the thing with this id, the eventlistener is clicked
+document.querySelector(".attractionsList").addEventListener("click", (eventObject) => {
+    if (eventObject.target.id.includes("attractionDetailsButton")) {
+      // debugger;
 
-// // attractions details button
+      console.log("this is the details button");
+      // debugger;
+      const idofAttractionClicked = eventObject.target.value;
+      // debugger;
+      const allTheAttractions = useAttractions();
+      // debugger;
+      const matchingAttraction = allTheAttractions.find(
+        (singleAttractioninLoop) => {
+          return singleAttractioninLoop.id === +idofAttractionClicked;
+        }
+      );
+      // debugger;
+      // console.log(
+      //   "this should be the matching attractions description",
+      //   matchingAttraction.id
+      // );
+      // debugger;
 
-// document.querySelector("#attractions-details-container").addEventListener("click", (attractionDeets) => {
-//     if (attractionDeets.target.id.includes("attractionDetailsButtonaName")) {
-//       debugger;
-//       console.log(attractionDeets.target.id);
+      getAttractions().then(() => {
+        let attractionHTML = "";
+        // debugger;
+        let allAttractions = useAttractions();
+        // debugger;
 
-//     }
+        const allTheAttractions = useAttractions();
+        const idofAttractionClicked = (eventObject.target.id.split("--").pop());
+        // console.log(idofAttractionClicked)
+        console.log(document.querySelector ("#AttractionSelect").value)
+        // debugger;
+        const matchingAttraction = allTheAttractions.find(
+          (singleAttractioninLoop) => {
+            // debugger;
+            return singleAttractioninLoop;
+          })
+            
+        
 
-})
+        console.log("this should be the name of the attraction", AttractionSelect.value)
+
+        console.log("this should be the matching attractions details", allTheAttractions)
+        debugger;
+
+        document.querySelector("#attractions-details-container--").innerHTML = "";
+          debugger;
+        for (let i = 0; i < allTheAttractions.length; i++) {
+          document.querySelector("#attractions-details-container--").innerHTML += `
+          <p id ="description">${allTheAttractions.name}</p>
+          <p>${allTheAttractions.value.description}</p>`;
+        }
+        debugger;
+
+       
+      });
+    }
+  });
