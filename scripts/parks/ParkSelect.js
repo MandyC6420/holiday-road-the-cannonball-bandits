@@ -44,19 +44,21 @@ parksTarget.addEventListener("change",(changeEvent) => {
         //creates a conditional to compare the park name against the changeEvent.target.value
         //if they match, the parkCard function-defined on Park.js that creates the HTML is inserted into the parks.list div and will print in the DOM
         if(currentParkInLoop.fullName === changeEvent.target.value){
-            document.querySelector(".parksList").innerHTML = parkCard(currentParkInLoop);
+            document.querySelector(".parksList").innerHTML = parkCard(currentParkInLoop)
         }
-        getWeather(currentParkInLoop.addresses[0].postalCode)
-        document.querySelector(".weatherList").innerHTML = weatherCard(currentParkInLoop)
+        //call the getWeather function from the WeatherProvider module; pass in a parameter of currentParkInLoop.addresses[0].postalCode so it will target an individual park's zip code
+        //use .then() to make sure the function getWeather fetches the data so I can useWeather() to create the parameter for the weatherCard() 
+        //which will print the HTML representation of the weather in the DOM in the weatherList div
+        getWeather(currentParkInLoop.addresses[0].postalCode).then(() => {
+            let allTheWeather = useWeather()
 
+            for(const currentWeatherInLoop of allTheWeather)
+                if(currentParkInLoop.fullName === changeEvent.target.value){
+                document.querySelector(".weatherList").innerHTML = weatherCard(currentWeatherInLoop)
+            }
         }
-        
+        )
+        }
     }
-    
 )
-// let allTheWeather = useWeather()
-// for(const currentWeatherInLoop of allTheWeather){
-//     if(currentWeatherInLoop === changeEvent.target.value){
-//         document.querySelector(".parksList").innerHTML = weatherCard(currentWeatherInLoop)
-//     }
-// }
+

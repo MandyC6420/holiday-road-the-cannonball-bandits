@@ -2,9 +2,11 @@
 //will be imported on ParkSelect
 
 export function parkCard (cardObject) {
+   
     return `
     <div class="park-card">
         <h2 class="park-name">${cardObject.fullName}</h2>
+        
         
         <h3 class="park-address">${cardObject.addresses[0].city},${cardObject.addresses[0].stateCode}</h3>
         
