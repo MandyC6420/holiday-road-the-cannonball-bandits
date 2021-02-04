@@ -1,6 +1,6 @@
 //calling an empty array where attractions will live
 
-let attractions = [];
+let attractions = "";
 
 //exporting useAttractions to AttractionSelect
 export const useAttractions = () => {

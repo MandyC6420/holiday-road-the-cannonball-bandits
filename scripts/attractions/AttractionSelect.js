@@ -1,7 +1,7 @@
 // importing functions from ""
 
 import { getAttractions, useAttractions } from "./AttractionProvider.js";
-import { attraction } from "./Attraction.js";
+import { attraction, attractionDetails } from "./Attraction.js";
 
 // Get a reference to the DOM element where the <select> will be rendered
 // Telling the dropdown where to live
@@ -41,19 +41,48 @@ const render = (attractionCollection) => {
 //creating event listener; eventHub variable declares where the listener will be active
 const eventHub = document.querySelector(".attractions-Dropdown");
 ////adds event listener to eventHub and designates it as a change event; this will trigger the data for the selected item to populate in the div
-eventHub.addEventListener("change", (eventObject) => {
-  console.log("You selected an item from", eventObject.target.value);
+eventHub.addEventListener("change", (attractionObject) => {
+  console.log("You selected an item from", attractionObject.target.value);
+
   // tests to see if listener is detecting change as expected when dropdown item changes
-  if (eventObject.target.id === "AttractionSelect") {
-    const attractionChosen = eventObject.target.value;
-    console.log(eventObject.target.value);
-    // debugger
+  if (attractionObject.target.id === "AttractionSelect") {
+    const attractionChosen = attractionObject.target.value;
+    console.log(attractionObject.target.value);
+    
     attraction(attractionChosen);
 
     document.querySelector(".attractionsList").innerHTML = attraction(
       attractionChosen
+      
     );
-  }
-});
+  } document.querySelector(".attraction-more-details").innerHTML = ""
 
-//create a conditional that if the eventObjerct.target.value === name in the loop
+// document.querySelector(".attraction-more-details").addEventListener("click", (attractionDeets) => {
+//     if (attractionDeets.target.id.includes("#attractionDetailsButton")) {
+//       debugger;
+//       console.log(attractionDeets);
+//       getAttractions().then(() => {
+//         let attractionHTML = "";
+//         let allAttractions = useAttractions();
+//         allAttractions.filter((currentAttraction) => {
+//           console.log(attractionDeets.target.id[1]);
+//           if ((parseInt(attractionDeets) = currentAttraction))
+//             attractionHTML += attractionDetails(currentAttraction);
+//         });
+//         document.querySelector(
+//           ".attraction-more-details"
+//         ).innerHTML = attractionHTML;
+//       });
+//     }
+//   });
+
+// // attractions details button
+
+// document.querySelector("#attractions-details-container").addEventListener("click", (attractionDeets) => {
+//     if (attractionDeets.target.id.includes("attractionDetailsButtonaName")) {
+//       debugger;
+//       console.log(attractionDeets.target.id);
+
+//     }
+
+})

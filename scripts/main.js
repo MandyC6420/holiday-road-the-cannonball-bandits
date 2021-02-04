@@ -1,7 +1,7 @@
 console.log("Welcome to the main module")
 
 import {useAttractions, getAttractions} from "./attractions/AttractionProvider.js"
-useAttractions()
+useAttractions(), getAttractions()
 
 import { AttractionSelect } from "./attractions/AttractionSelect.js"
 AttractionSelect()

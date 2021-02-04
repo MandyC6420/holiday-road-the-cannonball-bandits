@@ -59,5 +59,8 @@ select {
     max-width: 75%;
 }
 
+.attraction-more-details{
+    border: solid black 4px;
+}
 
 
