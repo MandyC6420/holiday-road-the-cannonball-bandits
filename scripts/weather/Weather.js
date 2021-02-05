@@ -2,15 +2,18 @@
 //will be imported on ParkSelect
 
 export function weatherCard (cardObject) {
-    
+    console.log(cardObject)
     return `
     <div id="weather-card">
-        <p>Date:${cardObject[0].dt_txt}</p>
+        <p class="date">Date:${cardObject.dt_txt}</p>
+        <p class="date">Today's High:${cardObject.main.temp_max}</p>
+        <p class="date">Today's Low:${cardObject.main.temp_min}</p>
+        <p class="date">Overall:${cardObject.weather[0].description}</p>
     </div>`
 }
 
 // <p>${cardObject.forecast.temperature.value}
-        // <p class="date">${cardObject.list[0].dt_text}</p>
+        // <p class="date">${cardObject[0].dt_text}</p>
         // <p class="current-temp">Current Temperature:${cardObject.main.temp}</p>
         // <p class="high-temp">High Temp:${cardObject[0]main.temp_max}</p>   
         // <p class="low-temp">Low Temp:${cardObject[0]main.temp_min}</p>   

@@ -4,7 +4,7 @@ import {weatherCard} from "./weather/Weather.js"
 import {getWeather, useWeather} from "./weather/WeatherProvider.js"
 
 ParkSelect()
-getWeather()
+
 
 
 console.log("Welcome to the main module")

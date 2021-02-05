@@ -9,8 +9,8 @@ export function parkCard (parkObject) {
     detailsContainer.innerHTML = `
     <p>${parkObject.description}</p>
     <p>${parkObject.designation}</p>
-    <a>Directions: ${parkObject.directionsUrl}</a>
-    <a>For more info visit: ${parkObject.url}</a>
+    <a href="${parkObject.directionsUrl}> Click here for easy directions!</a>
+    <p>For more info visit:<a href="{parkObject.url}>${parkObject.url}</a></p>
     `
     return `
     <div class="card, park-card style="width: 18rem;">
