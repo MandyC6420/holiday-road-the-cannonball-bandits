@@ -17,7 +17,7 @@ export const getAttractions = () => {
     .then((response) => response.json())
     //tells it where to go
     .then((parsedAttractions) => {
-        console.table(parsedAttractions)
+       // console.table(parsedAttractions)
       attractions = parsedAttractions;
     });
 };
