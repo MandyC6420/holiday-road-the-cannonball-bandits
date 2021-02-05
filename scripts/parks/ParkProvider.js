@@ -19,7 +19,7 @@ export const getParks = () => {
         .then(response => response.json())
         .then(
             parsedParks => {
-                console.log(parsedParks.data)
+               // console.log(parsedParks.data)
                 parksArray = parsedParks.data
             }
         )

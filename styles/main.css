@@ -4,25 +4,25 @@
 .flex-container {
   display: flex;
   justify-content: space-around;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 
 .parksList{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     text-align: center;
     padding: 1em;
 
 }
 
 .attractionsList{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     text-align:center;
     padding: 1em;
 }
 
 .eateryList{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     text-align: center;
     padding: 1em
    
