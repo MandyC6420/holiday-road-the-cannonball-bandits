@@ -1,59 +1,48 @@
-// importing functions from ""
+import { attractionCard } from "./Attraction.js"
+import { getAttractions, useAttractions } from "./AttractionProvider.js"
 
-import { getAttractions, useAttractions } from "./AttractionProvider.js";
-import { attraction } from "./Attraction.js";
 
+
+const attractionDropdownTarget = document.querySelector(".attraction-Dropdown")
 // Get a reference to the DOM element where the <select> will be rendered
-// Telling the dropdown where to live
-const contentTarget = document.querySelector(".attractions-Dropdown");
+// const eventHub = document.querySelector("body")
 
-// an arrow function
-export const AttractionSelect = () => {
-  // wait to getAttractions back from API
+export const attractionSelect = () => {
   getAttractions().then(() => {
-    //useAttractions is making a copy with the .slice from AttractionProvider
-    //assigning the variable/name allTheAttractions to that copy
-    let allTheAttractions = useAttractions();
 
-    //passing allTheAttractions through the function of render
-    render(allTheAttractions);
-  });
+    const attractions = useAttractions()
+    renderattractionSelect(attractions)
+  })
 };
 
-// arrow function/return value by rendering/delivering/returning the list of attractions
-const render = (attractionCollection) => {
-  // building attractions dropdown
-  //this is the target where the HTML is going to live--defined line 8
-  //.map is looping over the array attractionCollection
-  //it is taking in the parameter of attractionObject
-  contentTarget.innerHTML = `
-    <select class="dropdown" id="AttractionSelect">
-            <option value="">Please select an attraction...</option>
-               ${attractionCollection.map((attractionObject) => {
-                 const attraction = attractionObject.name;
-                 return `<option>${attraction}</option>`;
-               })}
-            </select>
-            </div>
-            `;
-};
+const renderattractionSelect = attractionArray => {
+  attractionDropdownTarget.innerHTML = `<select class="dropdown"> 
+  <option value="">Select an Attraction.</option>
+  ${attractionArray.map((currentAttraction)=> {
+  const attractionName = currentAttraction.name
+  return `<option>${currentAttraction.name}</option>`
+  })} 
+</select>
+`
+}
 
-//creating event listener; eventHub variable declares where the listener will be active
-const eventHub = document.querySelector(".attractions-Dropdown");
-////adds event listener to eventHub and designates it as a change event; this will trigger the data for the selected item to populate in the div
-eventHub.addEventListener("change", (eventObject) => {
-  console.log("You selected an item from", eventObject.target.value);
-  // tests to see if listener is detecting change as expected when dropdown item changes
-  if (eventObject.target.id === "AttractionSelect") {
-    const attractionChosen = eventObject.target.value;
-    console.log(eventObject.target.value);
-    // debugger
-    attraction(attractionChosen);
+const eventHub = document.querySelector (".attraction-Dropdown")
 
-    document.querySelector(".attractionsList").innerHTML = attraction(
-      attractionChosen
-    );
+eventHub.addEventListener("change", changeEvent => {
+  //console log when the dropdown item is changed; tests to see if listener is detecting change as expected
+  console.log("you selected an item from", changeEvent.target.value)
+
+  let attractions = useAttractions()
+  for(const attraction of attractions){
+    if(attraction.name === changeEvent.target.value)
+    document.querySelector(".attractionsList").innerHTML = attractionCard(attraction)
   }
-});
+}
+)
+  
 
-//create a conditional that if the eventObjerct.target.value === name in the loop
+
+
+
+
+   

@@ -1,15 +1,9 @@
-//calling an empty array where attractions will live
+let attractions = []
 
-let attractions = [];
-
-//exporting useAttractions to AttractionSelect
 export const useAttractions = () => {
-    //returning attractins .slice makes a copy of the original array
-  return attractions.slice();
-};
+    return attractions.slice()
+}
 
-
-//exporting getAttractions to AttractionSelect
 export const getAttractions = () => {
     //fetching array gathering all the info needed to display attractions
   return fetch("http://holidayroad.nss.team/bizarreries")

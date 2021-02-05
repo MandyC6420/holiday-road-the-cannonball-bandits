@@ -9,14 +9,14 @@ getWeather()
 
 console.log("Welcome to the main module")
 
-import {useAttractions, getAttractions} from "./attractions/AttractionProvider.js"
+import {useAttractions} from "./attractions/AttractionProvider.js"
 useAttractions()
 
-import { AttractionSelect } from "./attractions/AttractionSelect.js"
-AttractionSelect()
+import { getAttractions } from "./attractions/AttractionProvider.js"
+getAttractions()
 
-import { attraction } from "./attractions/Attraction.js"
-// attraction()
+import { attractionSelect } from "./attractions/AttractionSelect.js"
+attractionSelect()
 import { getEateries } from "./eateries/EateryProvider.js";
 getEateries()
 
