@@ -1,7 +1,7 @@
 //this module fetches the array of parks from the National Parks API
 
 //gets the key from the settings file to use in the fetch for the API
-import {Settings} from "../Settings.js"
+import {settings} from "../Settings.js"
 
 //created a parksArray where all parks will go
 let parksArray = []
@@ -13,7 +13,7 @@ export const useParks = () => parksArray.slice()
 //the first .then converts the JSON string into Javascript data
 //the second .then tells you where to put the data, back in the parksArray
 export const getParks = () => { 
-    return fetch(`https://developer.nps.gov/api/v1/parks?api_key=${Settings.npsKey}`
+    return fetch(`https://developer.nps.gov/api/v1/parks?api_key=${settings.npsKey}`
             
             )
         .then(response => response.json())

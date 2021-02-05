@@ -1,4 +1,4 @@
-import {Settings} from "../Settings.js"
+import {settings} from "../Settings.js"
 
 
 //created a weatherArray where all the weather data will go
@@ -15,7 +15,7 @@ export const useWeather = () => weatherArray.slice()
 // the first .then converts the data from JSON into javascript
 // the second .then tells the data where to go
 export const getWeather = (zipCode) => {
-    return fetch(`https://api.openweathermap.org/data/2.5/forecast?zip=${zipCode}&exclude:currently,minutely,hourly,alerts&units=imperial&appid=${Settings.weatherKey}`)
+    return fetch(`https://api.openweathermap.org/data/2.5/forecast?zip=${zipCode}&exclude:currently,minutely,hourly,alerts&units=imperial&appid=${settings.weatherKey}`)
         .then(response => response.json())
         .then(
             parsedWeather => {
