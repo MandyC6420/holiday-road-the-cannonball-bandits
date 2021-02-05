@@ -5,12 +5,13 @@ export const useAttractions = () => {
 }
 
 export const getAttractions = () => {
-    return fetch("http://holidayroad.nss.team/bizarreries")
-        .then(response => response.json())
-        .then(
-            parsedAttractions => {
-                // console.table(parsedAttractions) //check to see if printing to the console
-                attractions = parsedAttractions
-            }
-        )
-}
+    //fetching array gathering all the info needed to display attractions
+  return fetch("http://holidayroad.nss.team/bizarreries")
+  //converts the json string into the javascript data structure
+    .then((response) => response.json())
+    //tells it where to go
+    .then((parsedAttractions) => {
+       // console.table(parsedAttractions)
+      attractions = parsedAttractions;
+    });
+};

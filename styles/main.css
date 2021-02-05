@@ -9,7 +9,10 @@
 
 
 .parksList{
-    border: 1px solid black
+    border: 1px solid black;
+    text-align: center;
+    padding: 1em;
+
 }
 
 .attractionsList{
@@ -25,6 +28,7 @@
    
 }
 
+/* Patti Added */
 
 
 
