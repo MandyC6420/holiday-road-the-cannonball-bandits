@@ -15,12 +15,13 @@ export const useWeather = () => weatherArray.slice()
 // the first .then converts the data from JSON into javascript
 // the second .then tells the data where to go
 export const getWeather = (zipCode) => {
-    return fetch(`https://api.openweathermap.org/data/2.5/forecast?zip=${zipCode}&units=imperial&appid=${Settings.weatherKey}`)
+    return fetch(`https://api.openweathermap.org/data/2.5/forecast?zip=${zipCode}&exclude:currently,minutely,hourly,alerts&units=imperial&appid=${Settings.weatherKey}`)
         .then(response => response.json())
         .then(
             parsedWeather => {
-                console.log(parsedWeather.list)
+               // console.log(parsedWeather.list)
                 weatherArray = parsedWeather.list
+                console.log(weatherArray)
             }
         )
     }

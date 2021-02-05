@@ -1,3 +1,6 @@
+//this module fetches the array of parks from the National Parks API
+
+//gets the key from the settings file to use in the fetch for the API
 import {Settings} from "../Settings.js"
 
 //created a parksArray where all parks will go
