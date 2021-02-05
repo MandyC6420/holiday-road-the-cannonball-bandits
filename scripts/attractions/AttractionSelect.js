@@ -17,10 +17,10 @@ export const attractionSelect = () => {
 
 const renderattractionSelect = attractionArray => {
   attractionDropdownTarget.innerHTML = `<select class="dropdown"> 
-  <option value="0">Select an Attraction.</option>
+  <option value="currentAttraction">Select an Attraction.</option>
   ${attractionArray.map((currentAttraction)=> {
-  const attractionName = currentAttraction
-  return `<option>${currentAttraction}</option>`
+  const attractionName = currentAttraction.name
+  return `<option>${currentAttraction.name}</option>`
   })} 
 </select>
 `
