@@ -1,4 +1,70 @@
 {
-	"itineraries": []
-
+  "itineraries": [
+    {
+      "eatery": "Deer Park Tavern",
+      "attraction": "",
+      "park": "",
+      "id": 1
+    },
+    {
+      "eatery": {
+        "businessName": "El Charro Cafe",
+        "description": "Sure, there's more than one El Charro now, but the original Downtown location is the most iconic in the state. And its enduring popularity is no fluke -- people can't seem to get enough of the legendary carne seca, marinated Angus beef you can stuff inside tacos and enchiladas. They dry it themselves, of course. Sit on the patio on those cool desert nights with a house margarita, and you're made in the shade. You can also sit out there during the day, if you want to literally be in the shade.",
+        "state": "AZ",
+        "city": "Tucson",
+        "id": 4,
+        "ameneties": {
+          "wheelchairAccessible": false,
+          "petFriendly": false,
+          "wifi": true,
+          "diaperFacility": true,
+          "playground": true,
+          "restrooms": true
+        }
+      },
+      "attraction": "",
+      "park": "",
+      "id": 2
+    },
+    {
+      "eatery": {
+        "businessName": "Joe's Stone Crab",
+        "description": "Since Florida is home to many, many elderly people, it's fairly surprising we were able to find a restaurant older than most of them. While Joe's has opened up outposts across the country, the original has remained popular in Miami Beach since way back when. The only thing more famous than the iconic stone crabs are the people who've dined there: according to a book written about the restaurant, they include the likes of 'Sinatra, Ali, and Jennifer Lopez.' It's true, one of the judges from the 11th season of American Idol has eaten here!",
+        "state": "FL",
+        "city": "Miami",
+        "id": 11,
+        "ameneties": {
+          "wheelchairAccessible": false,
+          "petFriendly": false,
+          "wifi": false,
+          "diaperFacility": true,
+          "playground": true,
+          "restrooms": true
+        }
+      },
+      "attraction": "",
+      "park": "",
+      "id": 3
+    },
+    {
+      "eatery": {
+        "businessName": "El Charro Cafe",
+        "description": "Sure, there's more than one El Charro now, but the original Downtown location is the most iconic in the state. And its enduring popularity is no fluke -- people can't seem to get enough of the legendary carne seca, marinated Angus beef you can stuff inside tacos and enchiladas. They dry it themselves, of course. Sit on the patio on those cool desert nights with a house margarita, and you're made in the shade. You can also sit out there during the day, if you want to literally be in the shade.",
+        "state": "AZ",
+        "city": "Tucson",
+        "id": 4,
+        "ameneties": {
+          "wheelchairAccessible": false,
+          "petFriendly": false,
+          "wifi": true,
+          "diaperFacility": true,
+          "playground": true,
+          "restrooms": true
+        }
+      },
+      "attraction": "",
+      "park": "",
+      "id": 4
+    }
+  ]
 }

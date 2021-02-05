@@ -3,7 +3,7 @@ let selections = []
 export const useSelections = () => selections.slice()
 
 export const getSelections = () => {
-    return fetch('http://localhost:8088/db')
+    return fetch('http://localhost:8088/itineraries')
         .then(response => response.json())
         .then(parsedSelections => {
             selections = parsedSelections
@@ -12,7 +12,7 @@ export const getSelections = () => {
 }
 
 export const saveSelections = selection => {
-    return fetch('http://localhost:8088/db', {
+    return fetch('http://localhost:8088/itineraries', {
         method: "POST",
         headers: {
             "Content-Type": "application/json"

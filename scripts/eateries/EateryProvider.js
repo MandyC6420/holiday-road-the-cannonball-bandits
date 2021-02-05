@@ -20,7 +20,7 @@ export const getEateries = () => {
         
 }
 
-console.log(eateries)
+
 
 
 
