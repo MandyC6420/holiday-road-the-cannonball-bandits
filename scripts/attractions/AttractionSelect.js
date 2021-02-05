@@ -17,7 +17,7 @@ export const attractionSelect = () => {
 
 const renderattractionSelect = attractionArray => {
   attractionDropdownTarget.innerHTML = `<select class="dropdown"> 
-  <option value="currentAttraction">Select an Attraction.</option>
+  <option value="">Select an Attraction.</option>
   ${attractionArray.map((currentAttraction)=> {
   const attractionName = currentAttraction.name
   return `<option>${currentAttraction.name}</option>`
@@ -34,6 +34,7 @@ eventHub.addEventListener("change", changeEvent => {
 
   let attractions = useAttractions()
   for(const attraction of attractions){
+    if(attraction.name === changeEvent.target.value)
     document.querySelector(".attractionsList").innerHTML = attractionCard(attraction)
   }
 }
