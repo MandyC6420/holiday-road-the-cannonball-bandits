@@ -1,11 +1,13 @@
 let detailsContainer = document.querySelector(".modal-body")
 
 export const attractionCard = (attractionObject) => {
-    console.log("This should be", attractionObject)
-    console.log(attractionObject)
+    console.log("This should be the name of the attraction", attractionObject.name)
+    console.log("This should be the description of the attraction", attractionObject.description)
 
     detailsContainer.innerHTML = `
-    <h2>Description of Attraction Selected:${attractionObject.description}</h2>`
+    <h1>Description of Attraction Selected:</h1>
+    
+    <h3>${attractionObject.description}</h3>`
 
 
     return `
