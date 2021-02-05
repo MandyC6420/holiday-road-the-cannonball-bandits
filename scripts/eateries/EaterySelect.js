@@ -50,7 +50,7 @@ const eventHub = document.querySelector(".eateries-Dropdown")
 
 eventHub.addEventListener("change", changeEvent => {
     //console log when the dropdown item is changed; tests to see if listener is detecting change as expected
-    console.log("you selected an item from", changeEvent.target.value)
+    // console.log("you selected an item from", changeEvent.target.value)
 
     
    let eateries = useEateries()

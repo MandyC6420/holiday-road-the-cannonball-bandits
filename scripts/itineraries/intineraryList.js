@@ -1,4 +1,3 @@
-import { itineraryDisplay } from "./itinerary.js"
 import { getSelections, useSelections, saveSelections } from "./itineraryProvider.js"
 
 export const itineraryList = () => {

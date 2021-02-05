@@ -13,8 +13,8 @@ let detailsContainer = document.querySelector(".modal-body")
 
 export const eateryCard = (eateryObject) => {
 
-   console.log("This should be", eateryObject)
-   console.log(eateryObject.ameneties.wheelchairAccessible)
+   // console.log("This should be", eateryObject)
+ 
 //converts boolean in data set to a string of "yes" or "no" to be displayed in the description modal
    let wheelchair =''
    let pets =''

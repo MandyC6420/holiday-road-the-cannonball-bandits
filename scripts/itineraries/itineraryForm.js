@@ -8,7 +8,7 @@ const saveButtonTarget = document.querySelector(".save-itinerary-container")
 export const renderItineraryToSave = (eatery) => {
     
     saveButtonTarget.innerHTML = `
-    <p><b>Eatery:</b></p>
+   
     <button class="save-button" id="selection-save">Save Itinerary</button>
 
         `
@@ -19,9 +19,8 @@ export const renderItineraryToSave = (eatery) => {
 const eventHub = document.querySelector(".save-itinerary-container")
 
 eventHub.addEventListener("click", clickEvent => {
-    console.log("you clicked",clickEvent.target.id)
     if(clickEvent.target.id === "selection-save") {
-       
+       console.log("You clicked", clickEvent)
         let eaterySelection = document.getElementById("selected-eatery").innerHTML;
         console.log(eaterySelection)
         
@@ -31,12 +30,10 @@ eventHub.addEventListener("click", clickEvent => {
             "park" : ''
         }
         
-        // console.log(document.getElementById("selected-eatery").innerHTML)
      
-       
         console.log(newItinerary)
         saveSelections(newItinerary)
-        .then(itineraryList)
+        // // .then(itineraryList)
         
     }
    

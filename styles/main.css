@@ -64,3 +64,8 @@ select {
     width: 70vw
 }
 
+.save-itinerary-container{
+    display: flex;
+    justify-content: center;
+    margin: 2em
+}
