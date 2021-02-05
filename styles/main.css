@@ -66,12 +66,16 @@ select {
 
 .wide-modal {
     width: 70vw
+
+}
 .attraction-more-details{
     border: solid black 4px;
 }
 
-.save-itinerary-container{
-    display: flex;
+
+.save-itinerary-container {
+    display: flex; 
     justify-content: center;
-    margin: 2em
+    margin: 2em;
+    
 }
