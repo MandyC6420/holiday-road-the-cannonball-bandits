@@ -34,7 +34,7 @@ const renderEaterySelect = eateriesArray => {
         <option value="0">Select an eatery.</option>
         ${eateriesArray.map((currentEatery)=> {
         const eateryName = currentEatery.businessName
-        return `<option>${eateryName}</option>`
+        return `<option id="eatery-name">${eateryName}</option>`
 
         })} 
     </select>

@@ -79,7 +79,7 @@ export const eateryCard = (eateryObject) => {
     
     <div class="card" style="width: 18rem;">
     <div class="card-body">
-    <h4 class="card-title">${eateryObject.businessName}</h4>
+    <h4 class="card-title" id="selected-eatery">${eateryObject.businessName}</h4>
     <h5>${eateryObject.city},${eateryObject.state}</h5>
     <img class="eatery-image" src="../images/restaurant-clipart.jpg" alt="drawing-of-restaurant"><br>
     <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Details</a>
