@@ -1,5 +1,29 @@
 import { getEateries, useEateries } from "../eateries/EateryProvider.js";
 import { saveSelections } from "./itineraryProvider.js";
+// import { itineraryList } from "./intineraryList.js"
+
+
+export const itineraryCard = (itineraryObject) => {
+    let itineraryContainer = document.querySelector(".itinerary-container")
+
+    itineraryContainer.innerHTML = `
+    
+    
+        <section class="itinerary-card">
+        <h5>Itinerary</h5>
+        <p><b>Park:</b> ${itineraryObject.park}</p>
+        <p><b>Attraction:</b> ${itineraryObject.attraction}</p>
+        <p><b>Eatery:</b> ${itineraryObject.eatery}</p>
+        
+    `
+        
+
+   
+}
+
+
+
+
 
 const saveButton = document.querySelector("#selection-save")
 
@@ -8,11 +32,9 @@ saveButton.addEventListener("click", clickEvent => {
     console.log("this is", clickEvent.target.id)
     //     //-----Pulls the name of the selected eatery/park/attraction out of the printed card----
      let eaterySelection = document.getElementById("selected-eatery").innerText;
-     console.log(eaterySelection)
     
 
         let eateries = useEateries()
-        console.log(eateries)
         let savedEatery = eateries.find(e => e.businessName === eaterySelection)
         
     
@@ -22,8 +44,9 @@ saveButton.addEventListener("click", clickEvent => {
             "attraction": '',
             "park" : ''
                     }
-         console.log(newItinerary)           
+        //  itineraryList(newItinerary)
          saveSelections(newItinerary)
+         
 
     })
 

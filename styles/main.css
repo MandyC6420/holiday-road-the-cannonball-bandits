@@ -73,9 +73,15 @@ select {
 }
 
 
-.save-itinerary-container {
+.save-button-div {
     display: flex; 
     justify-content: center;
-    margin: 2em;
+    margin-bottom: 1em;
     
+    
+}
+
+.itinerary-container {
+    display: flex;
+    justify-content: center;
 }

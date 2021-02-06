@@ -2,326 +2,6 @@
   "itineraries": [
     {
       "eatery": {
-        "businessName": "El Charro Cafe",
-        "description": "Sure, there's more than one El Charro now, but the original Downtown location is the most iconic in the state. And its enduring popularity is no fluke -- people can't seem to get enough of the legendary carne seca, marinated Angus beef you can stuff inside tacos and enchiladas. They dry it themselves, of course. Sit on the patio on those cool desert nights with a house margarita, and you're made in the shade. You can also sit out there during the day, if you want to literally be in the shade.",
-        "state": "AZ",
-        "city": "Tucson",
-        "id": 4,
-        "ameneties": {
-          "wheelchairAccessible": false,
-          "petFriendly": false,
-          "wifi": true,
-          "diaperFacility": true,
-          "playground": true,
-          "restrooms": true
-        }
-      },
-      "attraction": "",
-      "park": "",
-      "id": 8
-    },
-    {
-      "eatery": {
-        "businessName": "The Cozy Inn",
-        "description": "You know who's sold a lot of sliders? White Castle. That company is also a Kansas product, like Raef LaFrentz. Yes, that Raef LaFrentz. But while Salina's famed slider shop doesn't have nearly as many locations as Harold and Kumar's favorite fast-food joint, The Cozy Inn stays popular to this day with its no-frills meat sandwiches topped with cooked onions and served on steamed buns.",
-        "state": "KS",
-        "city": "Salina",
-        "id": 18,
-        "ameneties": {
-          "wheelchairAccessible": true,
-          "petFriendly": false,
-          "wifi": false,
-          "diaperFacility": true,
-          "playground": true,
-          "restrooms": true
-        }
-      },
-      "attraction": "",
-      "park": "",
-      "id": 9
-    },
-    {
-      "eatery": {
-        "businessName": "St. Elmo Steak House",
-        "description": "For a steakhouse that's been around 100+ years, it's a true feat to remain relevant and fresh. But St. Elmo's has somehow achieved it. It's one of the best steakhouses in the country. And sure, you can still order tried-and-true menu items like the shrimp cocktail (it's filled with horseradish, and may melt your throat), but it's also made key updates to the space, like opening an upstairs upscale lounge with a bar from the 1800s. Ron Swanson's even eaten here. Sounds like a good enough reason for it to stay popular for another 100+ years.",
-        "state": "IN",
-        "city": "Indianapolis",
-        "id": 16,
-        "ameneties": {
-          "wheelchairAccessible": false,
-          "petFriendly": false,
-          "wifi": false,
-          "diaperFacility": true,
-          "playground": false,
-          "restrooms": true
-        }
-      },
-      "attraction": "",
-      "park": "",
-      "id": 10
-    },
-    {
-      "eatery": {
-        "businessName": "The Common Man",
-        "description": "Skiing and sustainability are two of the Vermontiest things about Vermont, so it's fitting that the state's most iconic restaurant is linked to both of them. For one, it's located in Warren, which skiers and riders know as the home of Sugarbush. And two, it's committed to sustainability, as Common Man sources most of its ingredients from local producers. Plus, it's in a barn. And not just any barn, but a mid-19th-century Vermont barn -- one that originally burned down in 1987.",
-        "state": "VT",
-        "city": "Warren",
-        "id": 47,
-        "ameneties": {
-          "wheelchairAccessible": true,
-          "petFriendly": false,
-          "wifi": false,
-          "diaperFacility": true,
-          "playground": false,
-          "restrooms": true
-        }
-      },
-      "attraction": "",
-      "park": "",
-      "id": 11
-    },
-    {
-      "eatery": {
-        "businessName": "Hudson's Hamburgers",
-        "description": "Burgers and fries. That's the all-American meal. And you can't get it at Hudson's, because it doesn't serve fries. But you can get a burger -- top it with hot mustard and spicy ketchup, if you know what's good for you -- with a side of a few different pies, if you want. There's a lunch counter that fits about 20, and it's packed every day at lunch. Squeeze yourself into a seat at the counter and have a double cheeseburger, a slice of chocolate pie, and a fountain drink. You won't miss the fries. Besides, you can get fries anywhere, so their absence will force you to focus on the deliciousness of everything else on your plate.",
-        "state": "ID",
-        "city": "Coeur d'Alene",
-        "id": 14,
-        "ameneties": {
-          "wheelchairAccessible": false,
-          "petFriendly": false,
-          "wifi": false,
-          "diaperFacility": true,
-          "playground": false,
-          "restrooms": true
-        }
-      },
-      "attraction": "",
-      "park": "",
-      "id": 12
-    },
-    {
-      "eatery": {
-        "businessName": "Canlis",
-        "description": "Canlis almost shouldn't work. It's perched awkwardly on the side of a hill next to a highway, it's one of the few fine-dining spots in decidedly casual Seattle, and it's still serving dishes from the '50s (if you give 'em 48 hours' notice). But once you're inside this quintessential northwest eatery, which was subtly remodeled last year and is currently searching for its sixth chef in 63 years, it is obvious why it does: first, there is the unique and breathtaking view over Seattle's Lake Union/Ship Canal. Then there's the classic, yet effortlessly current food, including the city's best steak -- just make sure you've got a jacket and something that's very rare in Seattle... a reservation.",
-        "state": "WA",
-        "city": "Seattle",
-        "id": 49,
-        "ameneties": {
-          "wheelchairAccessible": true,
-          "petFriendly": false,
-          "wifi": false,
-          "diaperFacility": true,
-          "playground": true,
-          "restrooms": true
-        }
-      },
-      "attraction": "",
-      "park": "",
-      "id": 13
-    },
-    {
-      "eatery": {
-        "businessName": "Gene & Jude's",
-        "description": "Deep dish is often the first food outsiders associate with Illinois, but the hot dog, more than anything, is intertwined with the local DNA. Gene & Jude's stands as a giant among a crowded field of fine tubed-meat purveyors, having relocated to its present River Grove digs in 1950 after four years in Chicago. You know you're getting a perfectly cooked, natural-casing Vienna Beef dog. You know it's coming piled high with a mountain of perfect fresh-cut fries whether you like it or not. And you know you better not even think about asking for ketchup -- even for those fries.",
-        "state": "IL",
-        "city": "River Grove",
-        "id": 15,
-        "ameneties": {
-          "wheelchairAccessible": false,
-          "petFriendly": false,
-          "wifi": false,
-          "diaperFacility": true,
-          "playground": false,
-          "restrooms": true
-        }
-      },
-      "attraction": "",
-      "park": "",
-      "id": 14
-    },
-    {
-      "eatery": {
-        "businessName": "Gene & Jude's",
-        "description": "Deep dish is often the first food outsiders associate with Illinois, but the hot dog, more than anything, is intertwined with the local DNA. Gene & Jude's stands as a giant among a crowded field of fine tubed-meat purveyors, having relocated to its present River Grove digs in 1950 after four years in Chicago. You know you're getting a perfectly cooked, natural-casing Vienna Beef dog. You know it's coming piled high with a mountain of perfect fresh-cut fries whether you like it or not. And you know you better not even think about asking for ketchup -- even for those fries.",
-        "state": "IL",
-        "city": "River Grove",
-        "id": 15,
-        "ameneties": {
-          "wheelchairAccessible": false,
-          "petFriendly": false,
-          "wifi": false,
-          "diaperFacility": true,
-          "playground": false,
-          "restrooms": true
-        }
-      },
-      "attraction": "",
-      "park": "",
-      "id": 15
-    },
-    {
-      "eatery": {
-        "businessName": "Gene & Jude's",
-        "description": "Deep dish is often the first food outsiders associate with Illinois, but the hot dog, more than anything, is intertwined with the local DNA. Gene & Jude's stands as a giant among a crowded field of fine tubed-meat purveyors, having relocated to its present River Grove digs in 1950 after four years in Chicago. You know you're getting a perfectly cooked, natural-casing Vienna Beef dog. You know it's coming piled high with a mountain of perfect fresh-cut fries whether you like it or not. And you know you better not even think about asking for ketchup -- even for those fries.",
-        "state": "IL",
-        "city": "River Grove",
-        "id": 15,
-        "ameneties": {
-          "wheelchairAccessible": false,
-          "petFriendly": false,
-          "wifi": false,
-          "diaperFacility": true,
-          "playground": false,
-          "restrooms": true
-        }
-      },
-      "attraction": "",
-      "park": "",
-      "id": 16
-    },
-    {
-      "eatery": {
-        "businessName": "Gene & Jude's",
-        "description": "Deep dish is often the first food outsiders associate with Illinois, but the hot dog, more than anything, is intertwined with the local DNA. Gene & Jude's stands as a giant among a crowded field of fine tubed-meat purveyors, having relocated to its present River Grove digs in 1950 after four years in Chicago. You know you're getting a perfectly cooked, natural-casing Vienna Beef dog. You know it's coming piled high with a mountain of perfect fresh-cut fries whether you like it or not. And you know you better not even think about asking for ketchup -- even for those fries.",
-        "state": "IL",
-        "city": "River Grove",
-        "id": 15,
-        "ameneties": {
-          "wheelchairAccessible": false,
-          "petFriendly": false,
-          "wifi": false,
-          "diaperFacility": true,
-          "playground": false,
-          "restrooms": true
-        }
-      },
-      "attraction": "",
-      "park": "",
-      "id": 17
-    },
-    {
-      "eatery": {
-        "businessName": "Gene & Jude's",
-        "description": "Deep dish is often the first food outsiders associate with Illinois, but the hot dog, more than anything, is intertwined with the local DNA. Gene & Jude's stands as a giant among a crowded field of fine tubed-meat purveyors, having relocated to its present River Grove digs in 1950 after four years in Chicago. You know you're getting a perfectly cooked, natural-casing Vienna Beef dog. You know it's coming piled high with a mountain of perfect fresh-cut fries whether you like it or not. And you know you better not even think about asking for ketchup -- even for those fries.",
-        "state": "IL",
-        "city": "River Grove",
-        "id": 15,
-        "ameneties": {
-          "wheelchairAccessible": false,
-          "petFriendly": false,
-          "wifi": false,
-          "diaperFacility": true,
-          "playground": false,
-          "restrooms": true
-        }
-      },
-      "attraction": "",
-      "park": "",
-      "id": 18
-    },
-    {
-      "eatery": {
-        "businessName": "St. Elmo Steak House",
-        "description": "For a steakhouse that's been around 100+ years, it's a true feat to remain relevant and fresh. But St. Elmo's has somehow achieved it. It's one of the best steakhouses in the country. And sure, you can still order tried-and-true menu items like the shrimp cocktail (it's filled with horseradish, and may melt your throat), but it's also made key updates to the space, like opening an upstairs upscale lounge with a bar from the 1800s. Ron Swanson's even eaten here. Sounds like a good enough reason for it to stay popular for another 100+ years.",
-        "state": "IN",
-        "city": "Indianapolis",
-        "id": 16,
-        "ameneties": {
-          "wheelchairAccessible": false,
-          "petFriendly": false,
-          "wifi": false,
-          "diaperFacility": true,
-          "playground": false,
-          "restrooms": true
-        }
-      },
-      "attraction": "",
-      "park": "",
-      "id": 19
-    },
-    {
-      "eatery": {
-        "businessName": "St. Elmo Steak House",
-        "description": "For a steakhouse that's been around 100+ years, it's a true feat to remain relevant and fresh. But St. Elmo's has somehow achieved it. It's one of the best steakhouses in the country. And sure, you can still order tried-and-true menu items like the shrimp cocktail (it's filled with horseradish, and may melt your throat), but it's also made key updates to the space, like opening an upstairs upscale lounge with a bar from the 1800s. Ron Swanson's even eaten here. Sounds like a good enough reason for it to stay popular for another 100+ years.",
-        "state": "IN",
-        "city": "Indianapolis",
-        "id": 16,
-        "ameneties": {
-          "wheelchairAccessible": false,
-          "petFriendly": false,
-          "wifi": false,
-          "diaperFacility": true,
-          "playground": false,
-          "restrooms": true
-        }
-      },
-      "attraction": "",
-      "park": "",
-      "id": 20
-    },
-    {
-      "eatery": {
-        "businessName": "St. Elmo Steak House",
-        "description": "For a steakhouse that's been around 100+ years, it's a true feat to remain relevant and fresh. But St. Elmo's has somehow achieved it. It's one of the best steakhouses in the country. And sure, you can still order tried-and-true menu items like the shrimp cocktail (it's filled with horseradish, and may melt your throat), but it's also made key updates to the space, like opening an upstairs upscale lounge with a bar from the 1800s. Ron Swanson's even eaten here. Sounds like a good enough reason for it to stay popular for another 100+ years.",
-        "state": "IN",
-        "city": "Indianapolis",
-        "id": 16,
-        "ameneties": {
-          "wheelchairAccessible": false,
-          "petFriendly": false,
-          "wifi": false,
-          "diaperFacility": true,
-          "playground": false,
-          "restrooms": true
-        }
-      },
-      "attraction": "",
-      "park": "",
-      "id": 21
-    },
-    {
-      "eatery": {
-        "businessName": "St. Elmo Steak House",
-        "description": "For a steakhouse that's been around 100+ years, it's a true feat to remain relevant and fresh. But St. Elmo's has somehow achieved it. It's one of the best steakhouses in the country. And sure, you can still order tried-and-true menu items like the shrimp cocktail (it's filled with horseradish, and may melt your throat), but it's also made key updates to the space, like opening an upstairs upscale lounge with a bar from the 1800s. Ron Swanson's even eaten here. Sounds like a good enough reason for it to stay popular for another 100+ years.",
-        "state": "IN",
-        "city": "Indianapolis",
-        "id": 16,
-        "ameneties": {
-          "wheelchairAccessible": false,
-          "petFriendly": false,
-          "wifi": false,
-          "diaperFacility": true,
-          "playground": false,
-          "restrooms": true
-        }
-      },
-      "attraction": "",
-      "park": "",
-      "id": 22
-    },
-    {
-      "eatery": {
-        "businessName": "St. Elmo Steak House",
-        "description": "For a steakhouse that's been around 100+ years, it's a true feat to remain relevant and fresh. But St. Elmo's has somehow achieved it. It's one of the best steakhouses in the country. And sure, you can still order tried-and-true menu items like the shrimp cocktail (it's filled with horseradish, and may melt your throat), but it's also made key updates to the space, like opening an upstairs upscale lounge with a bar from the 1800s. Ron Swanson's even eaten here. Sounds like a good enough reason for it to stay popular for another 100+ years.",
-        "state": "IN",
-        "city": "Indianapolis",
-        "id": 16,
-        "ameneties": {
-          "wheelchairAccessible": false,
-          "petFriendly": false,
-          "wifi": false,
-          "diaperFacility": true,
-          "playground": false,
-          "restrooms": true
-        }
-      },
-      "attraction": "",
-      "park": "",
-      "id": 23
-    },
-    {
-      "eatery": {
         "businessName": "St. Elmo Steak House",
         "description": "For a steakhouse that's been around 100+ years, it's a true feat to remain relevant and fresh. But St. Elmo's has somehow achieved it. It's one of the best steakhouses in the country. And sure, you can still order tried-and-true menu items like the shrimp cocktail (it's filled with horseradish, and may melt your throat), but it's also made key updates to the space, like opening an upstairs upscale lounge with a bar from the 1800s. Ron Swanson's even eaten here. Sounds like a good enough reason for it to stay popular for another 100+ years.",
         "state": "IN",
@@ -475,6 +155,180 @@
       "attraction": "",
       "park": "",
       "id": 35
+    },
+    {
+      "eatery": "Louis' Lunch",
+      "attraction": "",
+      "park": "",
+      "id": 36
+    },
+    {
+      "eatery": "Louis' Lunch",
+      "attraction": "",
+      "park": "",
+      "id": 37
+    },
+    {
+      "eatery": "Hudson's Hamburgers",
+      "attraction": "",
+      "park": "",
+      "id": 38
+    },
+    {
+      "eatery": "El Charro Cafe",
+      "attraction": "",
+      "park": "",
+      "id": 39
+    },
+    {
+      "eatery": "El Charro Cafe",
+      "attraction": "",
+      "park": "",
+      "id": 40
+    },
+    {
+      "eatery": "El Charro Cafe",
+      "attraction": "",
+      "park": "",
+      "id": 41
+    },
+    {
+      "eatery": "El Charro Cafe",
+      "attraction": "",
+      "park": "",
+      "id": 42
+    },
+    {
+      "eatery": "El Charro Cafe",
+      "attraction": "",
+      "park": "",
+      "id": 43
+    },
+    {
+      "eatery": "Hy's Steak House",
+      "attraction": "",
+      "park": "",
+      "id": 44
+    },
+    {
+      "eatery": "Joe's Stone Crab",
+      "attraction": "",
+      "park": "",
+      "id": 45
+    },
+    {
+      "eatery": "Joe's Stone Crab",
+      "attraction": "",
+      "park": "",
+      "id": 46
+    },
+    {
+      "eatery": "Joe's Stone Crab",
+      "attraction": "",
+      "park": "",
+      "id": 47
+    },
+    {
+      "eatery": "Marge's Pancake House",
+      "attraction": "",
+      "park": "",
+      "id": 48
+    },
+    {
+      "eatery": "Marge's Pancake House",
+      "attraction": "",
+      "park": "",
+      "id": 49
+    },
+    {
+      "eatery": "Buckhorn Exchange",
+      "attraction": "",
+      "park": "",
+      "id": 50
+    },
+    {
+      "eatery": "El Charro Cafe",
+      "attraction": "",
+      "park": "",
+      "id": 51
+    },
+    {
+      "eatery": "Louis' Lunch",
+      "attraction": "",
+      "park": "",
+      "id": 52
+    },
+    {
+      "eatery": "Buckhorn Exchange",
+      "attraction": "",
+      "park": "",
+      "id": 53
+    },
+    {
+      "eatery": "Deer Park Tavern",
+      "attraction": "",
+      "park": "",
+      "id": 54
+    },
+    {
+      "eatery": "Marge's Pancake House",
+      "attraction": "",
+      "park": "",
+      "id": 55
+    },
+    {
+      "eatery": "Club Paris",
+      "attraction": "",
+      "park": "",
+      "id": 56
+    },
+    {
+      "eatery": "Hy's Steak House",
+      "attraction": "",
+      "park": "",
+      "id": 57
+    },
+    {
+      "eatery": "The Old Clam House",
+      "attraction": "",
+      "park": "",
+      "id": 58
+    },
+    {
+      "eatery": "Club Paris",
+      "attraction": "",
+      "park": "",
+      "id": 59
+    },
+    {
+      "eatery": "Northwestern Steakhouse",
+      "attraction": "",
+      "park": "",
+      "id": 60
+    },
+    {
+      "eatery": "Northwestern Steakhouse",
+      "attraction": "",
+      "park": "",
+      "id": 61
+    },
+    {
+      "eatery": "Hy's Steak House",
+      "attraction": "",
+      "park": "",
+      "id": 62
+    },
+    {
+      "eatery": "The Cozy Inn",
+      "attraction": "",
+      "park": "",
+      "id": 63
+    },
+    {
+      "eatery": "St. Elmo Steak House",
+      "attraction": "",
+      "park": "",
+      "id": 64
     }
   ]
 }
