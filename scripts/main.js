@@ -17,19 +17,19 @@ getAttractions()
 
 import { attractionSelect } from "./attractions/AttractionSelect.js"
 attractionSelect()
+
+
+
 import { getEateries } from "./eateries/EateryProvider.js";
 getEateries()
 
 import { EaterySelect } from "./eateries/EaterySelect.js";
 EaterySelect()
 
-import { getSelections, useSelections } from "./itineraries/itineraryProvider.js";
+import { getSelections, useSelections, saveSelections } from "./itineraries/itineraryProvider.js";
 getSelections()
 
 
-import { renderItineraryToSave } from "./itineraries/itineraryForm.js"
-renderItineraryToSave()
 
-import { itineraryList } from "./itineraries/intineraryList.js";
 
 import { } from "./itineraries/itinerary.js"

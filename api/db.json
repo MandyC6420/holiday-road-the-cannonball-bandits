@@ -79,6 +79,402 @@
       "attraction": "",
       "park": "",
       "id": 11
+    },
+    {
+      "eatery": {
+        "businessName": "Hudson's Hamburgers",
+        "description": "Burgers and fries. That's the all-American meal. And you can't get it at Hudson's, because it doesn't serve fries. But you can get a burger -- top it with hot mustard and spicy ketchup, if you know what's good for you -- with a side of a few different pies, if you want. There's a lunch counter that fits about 20, and it's packed every day at lunch. Squeeze yourself into a seat at the counter and have a double cheeseburger, a slice of chocolate pie, and a fountain drink. You won't miss the fries. Besides, you can get fries anywhere, so their absence will force you to focus on the deliciousness of everything else on your plate.",
+        "state": "ID",
+        "city": "Coeur d'Alene",
+        "id": 14,
+        "ameneties": {
+          "wheelchairAccessible": false,
+          "petFriendly": false,
+          "wifi": false,
+          "diaperFacility": true,
+          "playground": false,
+          "restrooms": true
+        }
+      },
+      "attraction": "",
+      "park": "",
+      "id": 12
+    },
+    {
+      "eatery": {
+        "businessName": "Canlis",
+        "description": "Canlis almost shouldn't work. It's perched awkwardly on the side of a hill next to a highway, it's one of the few fine-dining spots in decidedly casual Seattle, and it's still serving dishes from the '50s (if you give 'em 48 hours' notice). But once you're inside this quintessential northwest eatery, which was subtly remodeled last year and is currently searching for its sixth chef in 63 years, it is obvious why it does: first, there is the unique and breathtaking view over Seattle's Lake Union/Ship Canal. Then there's the classic, yet effortlessly current food, including the city's best steak -- just make sure you've got a jacket and something that's very rare in Seattle... a reservation.",
+        "state": "WA",
+        "city": "Seattle",
+        "id": 49,
+        "ameneties": {
+          "wheelchairAccessible": true,
+          "petFriendly": false,
+          "wifi": false,
+          "diaperFacility": true,
+          "playground": true,
+          "restrooms": true
+        }
+      },
+      "attraction": "",
+      "park": "",
+      "id": 13
+    },
+    {
+      "eatery": {
+        "businessName": "Gene & Jude's",
+        "description": "Deep dish is often the first food outsiders associate with Illinois, but the hot dog, more than anything, is intertwined with the local DNA. Gene & Jude's stands as a giant among a crowded field of fine tubed-meat purveyors, having relocated to its present River Grove digs in 1950 after four years in Chicago. You know you're getting a perfectly cooked, natural-casing Vienna Beef dog. You know it's coming piled high with a mountain of perfect fresh-cut fries whether you like it or not. And you know you better not even think about asking for ketchup -- even for those fries.",
+        "state": "IL",
+        "city": "River Grove",
+        "id": 15,
+        "ameneties": {
+          "wheelchairAccessible": false,
+          "petFriendly": false,
+          "wifi": false,
+          "diaperFacility": true,
+          "playground": false,
+          "restrooms": true
+        }
+      },
+      "attraction": "",
+      "park": "",
+      "id": 14
+    },
+    {
+      "eatery": {
+        "businessName": "Gene & Jude's",
+        "description": "Deep dish is often the first food outsiders associate with Illinois, but the hot dog, more than anything, is intertwined with the local DNA. Gene & Jude's stands as a giant among a crowded field of fine tubed-meat purveyors, having relocated to its present River Grove digs in 1950 after four years in Chicago. You know you're getting a perfectly cooked, natural-casing Vienna Beef dog. You know it's coming piled high with a mountain of perfect fresh-cut fries whether you like it or not. And you know you better not even think about asking for ketchup -- even for those fries.",
+        "state": "IL",
+        "city": "River Grove",
+        "id": 15,
+        "ameneties": {
+          "wheelchairAccessible": false,
+          "petFriendly": false,
+          "wifi": false,
+          "diaperFacility": true,
+          "playground": false,
+          "restrooms": true
+        }
+      },
+      "attraction": "",
+      "park": "",
+      "id": 15
+    },
+    {
+      "eatery": {
+        "businessName": "Gene & Jude's",
+        "description": "Deep dish is often the first food outsiders associate with Illinois, but the hot dog, more than anything, is intertwined with the local DNA. Gene & Jude's stands as a giant among a crowded field of fine tubed-meat purveyors, having relocated to its present River Grove digs in 1950 after four years in Chicago. You know you're getting a perfectly cooked, natural-casing Vienna Beef dog. You know it's coming piled high with a mountain of perfect fresh-cut fries whether you like it or not. And you know you better not even think about asking for ketchup -- even for those fries.",
+        "state": "IL",
+        "city": "River Grove",
+        "id": 15,
+        "ameneties": {
+          "wheelchairAccessible": false,
+          "petFriendly": false,
+          "wifi": false,
+          "diaperFacility": true,
+          "playground": false,
+          "restrooms": true
+        }
+      },
+      "attraction": "",
+      "park": "",
+      "id": 16
+    },
+    {
+      "eatery": {
+        "businessName": "Gene & Jude's",
+        "description": "Deep dish is often the first food outsiders associate with Illinois, but the hot dog, more than anything, is intertwined with the local DNA. Gene & Jude's stands as a giant among a crowded field of fine tubed-meat purveyors, having relocated to its present River Grove digs in 1950 after four years in Chicago. You know you're getting a perfectly cooked, natural-casing Vienna Beef dog. You know it's coming piled high with a mountain of perfect fresh-cut fries whether you like it or not. And you know you better not even think about asking for ketchup -- even for those fries.",
+        "state": "IL",
+        "city": "River Grove",
+        "id": 15,
+        "ameneties": {
+          "wheelchairAccessible": false,
+          "petFriendly": false,
+          "wifi": false,
+          "diaperFacility": true,
+          "playground": false,
+          "restrooms": true
+        }
+      },
+      "attraction": "",
+      "park": "",
+      "id": 17
+    },
+    {
+      "eatery": {
+        "businessName": "Gene & Jude's",
+        "description": "Deep dish is often the first food outsiders associate with Illinois, but the hot dog, more than anything, is intertwined with the local DNA. Gene & Jude's stands as a giant among a crowded field of fine tubed-meat purveyors, having relocated to its present River Grove digs in 1950 after four years in Chicago. You know you're getting a perfectly cooked, natural-casing Vienna Beef dog. You know it's coming piled high with a mountain of perfect fresh-cut fries whether you like it or not. And you know you better not even think about asking for ketchup -- even for those fries.",
+        "state": "IL",
+        "city": "River Grove",
+        "id": 15,
+        "ameneties": {
+          "wheelchairAccessible": false,
+          "petFriendly": false,
+          "wifi": false,
+          "diaperFacility": true,
+          "playground": false,
+          "restrooms": true
+        }
+      },
+      "attraction": "",
+      "park": "",
+      "id": 18
+    },
+    {
+      "eatery": {
+        "businessName": "St. Elmo Steak House",
+        "description": "For a steakhouse that's been around 100+ years, it's a true feat to remain relevant and fresh. But St. Elmo's has somehow achieved it. It's one of the best steakhouses in the country. And sure, you can still order tried-and-true menu items like the shrimp cocktail (it's filled with horseradish, and may melt your throat), but it's also made key updates to the space, like opening an upstairs upscale lounge with a bar from the 1800s. Ron Swanson's even eaten here. Sounds like a good enough reason for it to stay popular for another 100+ years.",
+        "state": "IN",
+        "city": "Indianapolis",
+        "id": 16,
+        "ameneties": {
+          "wheelchairAccessible": false,
+          "petFriendly": false,
+          "wifi": false,
+          "diaperFacility": true,
+          "playground": false,
+          "restrooms": true
+        }
+      },
+      "attraction": "",
+      "park": "",
+      "id": 19
+    },
+    {
+      "eatery": {
+        "businessName": "St. Elmo Steak House",
+        "description": "For a steakhouse that's been around 100+ years, it's a true feat to remain relevant and fresh. But St. Elmo's has somehow achieved it. It's one of the best steakhouses in the country. And sure, you can still order tried-and-true menu items like the shrimp cocktail (it's filled with horseradish, and may melt your throat), but it's also made key updates to the space, like opening an upstairs upscale lounge with a bar from the 1800s. Ron Swanson's even eaten here. Sounds like a good enough reason for it to stay popular for another 100+ years.",
+        "state": "IN",
+        "city": "Indianapolis",
+        "id": 16,
+        "ameneties": {
+          "wheelchairAccessible": false,
+          "petFriendly": false,
+          "wifi": false,
+          "diaperFacility": true,
+          "playground": false,
+          "restrooms": true
+        }
+      },
+      "attraction": "",
+      "park": "",
+      "id": 20
+    },
+    {
+      "eatery": {
+        "businessName": "St. Elmo Steak House",
+        "description": "For a steakhouse that's been around 100+ years, it's a true feat to remain relevant and fresh. But St. Elmo's has somehow achieved it. It's one of the best steakhouses in the country. And sure, you can still order tried-and-true menu items like the shrimp cocktail (it's filled with horseradish, and may melt your throat), but it's also made key updates to the space, like opening an upstairs upscale lounge with a bar from the 1800s. Ron Swanson's even eaten here. Sounds like a good enough reason for it to stay popular for another 100+ years.",
+        "state": "IN",
+        "city": "Indianapolis",
+        "id": 16,
+        "ameneties": {
+          "wheelchairAccessible": false,
+          "petFriendly": false,
+          "wifi": false,
+          "diaperFacility": true,
+          "playground": false,
+          "restrooms": true
+        }
+      },
+      "attraction": "",
+      "park": "",
+      "id": 21
+    },
+    {
+      "eatery": {
+        "businessName": "St. Elmo Steak House",
+        "description": "For a steakhouse that's been around 100+ years, it's a true feat to remain relevant and fresh. But St. Elmo's has somehow achieved it. It's one of the best steakhouses in the country. And sure, you can still order tried-and-true menu items like the shrimp cocktail (it's filled with horseradish, and may melt your throat), but it's also made key updates to the space, like opening an upstairs upscale lounge with a bar from the 1800s. Ron Swanson's even eaten here. Sounds like a good enough reason for it to stay popular for another 100+ years.",
+        "state": "IN",
+        "city": "Indianapolis",
+        "id": 16,
+        "ameneties": {
+          "wheelchairAccessible": false,
+          "petFriendly": false,
+          "wifi": false,
+          "diaperFacility": true,
+          "playground": false,
+          "restrooms": true
+        }
+      },
+      "attraction": "",
+      "park": "",
+      "id": 22
+    },
+    {
+      "eatery": {
+        "businessName": "St. Elmo Steak House",
+        "description": "For a steakhouse that's been around 100+ years, it's a true feat to remain relevant and fresh. But St. Elmo's has somehow achieved it. It's one of the best steakhouses in the country. And sure, you can still order tried-and-true menu items like the shrimp cocktail (it's filled with horseradish, and may melt your throat), but it's also made key updates to the space, like opening an upstairs upscale lounge with a bar from the 1800s. Ron Swanson's even eaten here. Sounds like a good enough reason for it to stay popular for another 100+ years.",
+        "state": "IN",
+        "city": "Indianapolis",
+        "id": 16,
+        "ameneties": {
+          "wheelchairAccessible": false,
+          "petFriendly": false,
+          "wifi": false,
+          "diaperFacility": true,
+          "playground": false,
+          "restrooms": true
+        }
+      },
+      "attraction": "",
+      "park": "",
+      "id": 23
+    },
+    {
+      "eatery": {
+        "businessName": "St. Elmo Steak House",
+        "description": "For a steakhouse that's been around 100+ years, it's a true feat to remain relevant and fresh. But St. Elmo's has somehow achieved it. It's one of the best steakhouses in the country. And sure, you can still order tried-and-true menu items like the shrimp cocktail (it's filled with horseradish, and may melt your throat), but it's also made key updates to the space, like opening an upstairs upscale lounge with a bar from the 1800s. Ron Swanson's even eaten here. Sounds like a good enough reason for it to stay popular for another 100+ years.",
+        "state": "IN",
+        "city": "Indianapolis",
+        "id": 16,
+        "ameneties": {
+          "wheelchairAccessible": false,
+          "petFriendly": false,
+          "wifi": false,
+          "diaperFacility": true,
+          "playground": false,
+          "restrooms": true
+        }
+      },
+      "attraction": "",
+      "park": "",
+      "id": 24
+    },
+    {
+      "eatery": {
+        "businessName": "St. Elmo Steak House",
+        "description": "For a steakhouse that's been around 100+ years, it's a true feat to remain relevant and fresh. But St. Elmo's has somehow achieved it. It's one of the best steakhouses in the country. And sure, you can still order tried-and-true menu items like the shrimp cocktail (it's filled with horseradish, and may melt your throat), but it's also made key updates to the space, like opening an upstairs upscale lounge with a bar from the 1800s. Ron Swanson's even eaten here. Sounds like a good enough reason for it to stay popular for another 100+ years.",
+        "state": "IN",
+        "city": "Indianapolis",
+        "id": 16,
+        "ameneties": {
+          "wheelchairAccessible": false,
+          "petFriendly": false,
+          "wifi": false,
+          "diaperFacility": true,
+          "playground": false,
+          "restrooms": true
+        }
+      },
+      "attraction": "",
+      "park": "",
+      "id": 25
+    },
+    {
+      "eatery": {
+        "businessName": "St. Elmo Steak House",
+        "description": "For a steakhouse that's been around 100+ years, it's a true feat to remain relevant and fresh. But St. Elmo's has somehow achieved it. It's one of the best steakhouses in the country. And sure, you can still order tried-and-true menu items like the shrimp cocktail (it's filled with horseradish, and may melt your throat), but it's also made key updates to the space, like opening an upstairs upscale lounge with a bar from the 1800s. Ron Swanson's even eaten here. Sounds like a good enough reason for it to stay popular for another 100+ years.",
+        "state": "IN",
+        "city": "Indianapolis",
+        "id": 16,
+        "ameneties": {
+          "wheelchairAccessible": false,
+          "petFriendly": false,
+          "wifi": false,
+          "diaperFacility": true,
+          "playground": false,
+          "restrooms": true
+        }
+      },
+      "attraction": "",
+      "park": "",
+      "id": 26
+    },
+    {
+      "eatery": {
+        "businessName": "St. Elmo Steak House",
+        "description": "For a steakhouse that's been around 100+ years, it's a true feat to remain relevant and fresh. But St. Elmo's has somehow achieved it. It's one of the best steakhouses in the country. And sure, you can still order tried-and-true menu items like the shrimp cocktail (it's filled with horseradish, and may melt your throat), but it's also made key updates to the space, like opening an upstairs upscale lounge with a bar from the 1800s. Ron Swanson's even eaten here. Sounds like a good enough reason for it to stay popular for another 100+ years.",
+        "state": "IN",
+        "city": "Indianapolis",
+        "id": 16,
+        "ameneties": {
+          "wheelchairAccessible": false,
+          "petFriendly": false,
+          "wifi": false,
+          "diaperFacility": true,
+          "playground": false,
+          "restrooms": true
+        }
+      },
+      "attraction": "",
+      "park": "",
+      "id": 27
+    },
+    {
+      "eatery": {
+        "businessName": "St. Elmo Steak House",
+        "description": "For a steakhouse that's been around 100+ years, it's a true feat to remain relevant and fresh. But St. Elmo's has somehow achieved it. It's one of the best steakhouses in the country. And sure, you can still order tried-and-true menu items like the shrimp cocktail (it's filled with horseradish, and may melt your throat), but it's also made key updates to the space, like opening an upstairs upscale lounge with a bar from the 1800s. Ron Swanson's even eaten here. Sounds like a good enough reason for it to stay popular for another 100+ years.",
+        "state": "IN",
+        "city": "Indianapolis",
+        "id": 16,
+        "ameneties": {
+          "wheelchairAccessible": false,
+          "petFriendly": false,
+          "wifi": false,
+          "diaperFacility": true,
+          "playground": false,
+          "restrooms": true
+        }
+      },
+      "attraction": "",
+      "park": "",
+      "id": 28
+    },
+    {
+      "eatery": {
+        "businessName": "Louis' Lunch",
+        "description": "There's a lot of debate as to who invented the hamburger as we know it today, but that debate kind of ends at Louis' Lunch, mainly because it's tired of arguing about it, but also because the Library of Congress declared it so. The tiny joint still uses its original cast-iron grills, which cook the hand-ground patties vertically by blasting them with fire. Want ketchup and mustard? Head to one of the other places that claim to have invented the burger: at Louis', your options are cheese, tomato, and onion on toast. That's the way it's been since it 'invented' the burger back in the day, and that's how it'll always be.",
+        "state": "CT",
+        "city": "New Haven",
+        "id": 8,
+        "ameneties": {
+          "wheelchairAccessible": true,
+          "petFriendly": false,
+          "wifi": true,
+          "diaperFacility": true,
+          "playground": false,
+          "restrooms": true
+        }
+      },
+      "attraction": "",
+      "park": "",
+      "id": 29
+    },
+    {
+      "eatery": "St. Elmo Steak House",
+      "attraction": "",
+      "park": "",
+      "id": 30
+    },
+    {
+      "eatery": "The Old Clam House",
+      "attraction": "",
+      "park": "",
+      "id": 31
+    },
+    {
+      "eatery": "The Old Clam House",
+      "attraction": "",
+      "park": "",
+      "id": 32
+    },
+    {
+      "eatery": "McClard's BBQ",
+      "attraction": "",
+      "park": "",
+      "id": 33
+    },
+    {
+      "eatery": "Louis' Lunch",
+      "attraction": "",
+      "park": "",
+      "id": 34
+    },
+    {
+      "eatery": "McClard's BBQ",
+      "attraction": "",
+      "park": "",
+      "id": 35
     }
   ]
 }
