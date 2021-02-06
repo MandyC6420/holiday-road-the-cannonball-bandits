@@ -1,288 +1,6 @@
 {
   "itineraries": [
     {
-      "eatery": {
-        "businessName": "St. Elmo Steak House",
-        "description": "For a steakhouse that's been around 100+ years, it's a true feat to remain relevant and fresh. But St. Elmo's has somehow achieved it. It's one of the best steakhouses in the country. And sure, you can still order tried-and-true menu items like the shrimp cocktail (it's filled with horseradish, and may melt your throat), but it's also made key updates to the space, like opening an upstairs upscale lounge with a bar from the 1800s. Ron Swanson's even eaten here. Sounds like a good enough reason for it to stay popular for another 100+ years.",
-        "state": "IN",
-        "city": "Indianapolis",
-        "id": 16,
-        "ameneties": {
-          "wheelchairAccessible": false,
-          "petFriendly": false,
-          "wifi": false,
-          "diaperFacility": true,
-          "playground": false,
-          "restrooms": true
-        }
-      },
-      "attraction": "",
-      "park": "",
-      "id": 24
-    },
-    {
-      "eatery": {
-        "businessName": "St. Elmo Steak House",
-        "description": "For a steakhouse that's been around 100+ years, it's a true feat to remain relevant and fresh. But St. Elmo's has somehow achieved it. It's one of the best steakhouses in the country. And sure, you can still order tried-and-true menu items like the shrimp cocktail (it's filled with horseradish, and may melt your throat), but it's also made key updates to the space, like opening an upstairs upscale lounge with a bar from the 1800s. Ron Swanson's even eaten here. Sounds like a good enough reason for it to stay popular for another 100+ years.",
-        "state": "IN",
-        "city": "Indianapolis",
-        "id": 16,
-        "ameneties": {
-          "wheelchairAccessible": false,
-          "petFriendly": false,
-          "wifi": false,
-          "diaperFacility": true,
-          "playground": false,
-          "restrooms": true
-        }
-      },
-      "attraction": "",
-      "park": "",
-      "id": 25
-    },
-    {
-      "eatery": {
-        "businessName": "St. Elmo Steak House",
-        "description": "For a steakhouse that's been around 100+ years, it's a true feat to remain relevant and fresh. But St. Elmo's has somehow achieved it. It's one of the best steakhouses in the country. And sure, you can still order tried-and-true menu items like the shrimp cocktail (it's filled with horseradish, and may melt your throat), but it's also made key updates to the space, like opening an upstairs upscale lounge with a bar from the 1800s. Ron Swanson's even eaten here. Sounds like a good enough reason for it to stay popular for another 100+ years.",
-        "state": "IN",
-        "city": "Indianapolis",
-        "id": 16,
-        "ameneties": {
-          "wheelchairAccessible": false,
-          "petFriendly": false,
-          "wifi": false,
-          "diaperFacility": true,
-          "playground": false,
-          "restrooms": true
-        }
-      },
-      "attraction": "",
-      "park": "",
-      "id": 26
-    },
-    {
-      "eatery": {
-        "businessName": "St. Elmo Steak House",
-        "description": "For a steakhouse that's been around 100+ years, it's a true feat to remain relevant and fresh. But St. Elmo's has somehow achieved it. It's one of the best steakhouses in the country. And sure, you can still order tried-and-true menu items like the shrimp cocktail (it's filled with horseradish, and may melt your throat), but it's also made key updates to the space, like opening an upstairs upscale lounge with a bar from the 1800s. Ron Swanson's even eaten here. Sounds like a good enough reason for it to stay popular for another 100+ years.",
-        "state": "IN",
-        "city": "Indianapolis",
-        "id": 16,
-        "ameneties": {
-          "wheelchairAccessible": false,
-          "petFriendly": false,
-          "wifi": false,
-          "diaperFacility": true,
-          "playground": false,
-          "restrooms": true
-        }
-      },
-      "attraction": "",
-      "park": "",
-      "id": 27
-    },
-    {
-      "eatery": {
-        "businessName": "St. Elmo Steak House",
-        "description": "For a steakhouse that's been around 100+ years, it's a true feat to remain relevant and fresh. But St. Elmo's has somehow achieved it. It's one of the best steakhouses in the country. And sure, you can still order tried-and-true menu items like the shrimp cocktail (it's filled with horseradish, and may melt your throat), but it's also made key updates to the space, like opening an upstairs upscale lounge with a bar from the 1800s. Ron Swanson's even eaten here. Sounds like a good enough reason for it to stay popular for another 100+ years.",
-        "state": "IN",
-        "city": "Indianapolis",
-        "id": 16,
-        "ameneties": {
-          "wheelchairAccessible": false,
-          "petFriendly": false,
-          "wifi": false,
-          "diaperFacility": true,
-          "playground": false,
-          "restrooms": true
-        }
-      },
-      "attraction": "",
-      "park": "",
-      "id": 28
-    },
-    {
-      "eatery": {
-        "businessName": "Louis' Lunch",
-        "description": "There's a lot of debate as to who invented the hamburger as we know it today, but that debate kind of ends at Louis' Lunch, mainly because it's tired of arguing about it, but also because the Library of Congress declared it so. The tiny joint still uses its original cast-iron grills, which cook the hand-ground patties vertically by blasting them with fire. Want ketchup and mustard? Head to one of the other places that claim to have invented the burger: at Louis', your options are cheese, tomato, and onion on toast. That's the way it's been since it 'invented' the burger back in the day, and that's how it'll always be.",
-        "state": "CT",
-        "city": "New Haven",
-        "id": 8,
-        "ameneties": {
-          "wheelchairAccessible": true,
-          "petFriendly": false,
-          "wifi": true,
-          "diaperFacility": true,
-          "playground": false,
-          "restrooms": true
-        }
-      },
-      "attraction": "",
-      "park": "",
-      "id": 29
-    },
-    {
-      "eatery": "St. Elmo Steak House",
-      "attraction": "",
-      "park": "",
-      "id": 30
-    },
-    {
-      "eatery": "The Old Clam House",
-      "attraction": "",
-      "park": "",
-      "id": 31
-    },
-    {
-      "eatery": "The Old Clam House",
-      "attraction": "",
-      "park": "",
-      "id": 32
-    },
-    {
-      "eatery": "McClard's BBQ",
-      "attraction": "",
-      "park": "",
-      "id": 33
-    },
-    {
-      "eatery": "Louis' Lunch",
-      "attraction": "",
-      "park": "",
-      "id": 34
-    },
-    {
-      "eatery": "McClard's BBQ",
-      "attraction": "",
-      "park": "",
-      "id": 35
-    },
-    {
-      "eatery": "Louis' Lunch",
-      "attraction": "",
-      "park": "",
-      "id": 36
-    },
-    {
-      "eatery": "Louis' Lunch",
-      "attraction": "",
-      "park": "",
-      "id": 37
-    },
-    {
-      "eatery": "Hudson's Hamburgers",
-      "attraction": "",
-      "park": "",
-      "id": 38
-    },
-    {
-      "eatery": "El Charro Cafe",
-      "attraction": "",
-      "park": "",
-      "id": 39
-    },
-    {
-      "eatery": "El Charro Cafe",
-      "attraction": "",
-      "park": "",
-      "id": 40
-    },
-    {
-      "eatery": "El Charro Cafe",
-      "attraction": "",
-      "park": "",
-      "id": 41
-    },
-    {
-      "eatery": "El Charro Cafe",
-      "attraction": "",
-      "park": "",
-      "id": 42
-    },
-    {
-      "eatery": "El Charro Cafe",
-      "attraction": "",
-      "park": "",
-      "id": 43
-    },
-    {
-      "eatery": "Hy's Steak House",
-      "attraction": "",
-      "park": "",
-      "id": 44
-    },
-    {
-      "eatery": "Joe's Stone Crab",
-      "attraction": "",
-      "park": "",
-      "id": 45
-    },
-    {
-      "eatery": "Joe's Stone Crab",
-      "attraction": "",
-      "park": "",
-      "id": 46
-    },
-    {
-      "eatery": "Joe's Stone Crab",
-      "attraction": "",
-      "park": "",
-      "id": 47
-    },
-    {
-      "eatery": "Marge's Pancake House",
-      "attraction": "",
-      "park": "",
-      "id": 48
-    },
-    {
-      "eatery": "Marge's Pancake House",
-      "attraction": "",
-      "park": "",
-      "id": 49
-    },
-    {
-      "eatery": "Buckhorn Exchange",
-      "attraction": "",
-      "park": "",
-      "id": 50
-    },
-    {
-      "eatery": "El Charro Cafe",
-      "attraction": "",
-      "park": "",
-      "id": 51
-    },
-    {
-      "eatery": "Louis' Lunch",
-      "attraction": "",
-      "park": "",
-      "id": 52
-    },
-    {
-      "eatery": "Buckhorn Exchange",
-      "attraction": "",
-      "park": "",
-      "id": 53
-    },
-    {
-      "eatery": "Deer Park Tavern",
-      "attraction": "",
-      "park": "",
-      "id": 54
-    },
-    {
-      "eatery": "Marge's Pancake House",
-      "attraction": "",
-      "park": "",
-      "id": 55
-    },
-    {
-      "eatery": "Club Paris",
-      "attraction": "",
-      "park": "",
-      "id": 56
-    },
-    {
       "eatery": "Hy's Steak House",
       "attraction": "",
       "park": "",
@@ -301,25 +19,25 @@
       "id": 59
     },
     {
-      "eatery": "Northwestern Steakhouse",
+      "eatery": "Commander's Palace",
       "attraction": "",
       "park": "",
       "id": 60
     },
     {
-      "eatery": "Northwestern Steakhouse",
+      "eatery": "Hudson's Hamburgers",
       "attraction": "",
       "park": "",
       "id": 61
     },
     {
-      "eatery": "Hy's Steak House",
+      "eatery": "Jack Fry's",
       "attraction": "",
       "park": "",
       "id": 62
     },
     {
-      "eatery": "The Cozy Inn",
+      "eatery": "Jack Fry's",
       "attraction": "",
       "park": "",
       "id": 63
@@ -329,6 +47,36 @@
       "attraction": "",
       "park": "",
       "id": 64
+    },
+    {
+      "eatery": "El Charro Cafe",
+      "attraction": "",
+      "park": "",
+      "id": 65
+    },
+    {
+      "eatery": "Big Bob Gibson Bar-B-Que",
+      "attraction": "",
+      "park": "",
+      "id": 66
+    },
+    {
+      "eatery": "The Cozy Inn",
+      "attraction": "",
+      "park": "",
+      "id": 67
+    },
+    {
+      "eatery": "Gene & Jude's",
+      "attraction": "",
+      "park": "",
+      "id": 68
+    },
+    {
+      "eatery": "Louis' Lunch",
+      "attraction": "",
+      "park": "",
+      "id": 69
     }
   ]
 }

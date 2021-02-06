@@ -30,7 +30,7 @@ import { getSelections, useSelections, saveSelections } from "./itineraries/itin
 getSelections()
 
 
-import { itineraryList } from "./itineraries/intineraryList.js";
+import { itineraryList } from "./itineraries/itineraryList.js";
 itineraryList()// 
 
 import { itineraryCard } from "./itineraries/itinerary.js"
