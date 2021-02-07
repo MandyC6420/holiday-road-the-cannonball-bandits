@@ -29,6 +29,48 @@
       "attraction": "",
       "park": "American Memorial Park",
       "id": 90
+    },
+    {
+      "eatery": "St. Elmo Steak House",
+      "attraction": "",
+      "park": "Amistad National Recreation Area",
+      "id": 91
+    },
+    {
+      "eatery": "St. Elmo Steak House",
+      "attraction": "",
+      "park": "Amistad National Recreation Area",
+      "id": 92
+    },
+    {
+      "eatery": "Northwestern Steakhouse",
+      "attraction": "",
+      "park": "Amistad National Recreation Area",
+      "id": 93
+    },
+    {
+      "eatery": "Northwestern Steakhouse",
+      "attraction": "",
+      "park": "Amistad National Recreation Area",
+      "id": 94
+    },
+    {
+      "eatery": "Gene & Jude's",
+      "attraction": "First Kiss Spot of the Obamas",
+      "park": "American Memorial Park",
+      "id": 95
+    },
+    {
+      "eatery": "St. Elmo Steak House",
+      "attraction": "Mini Statue of Liberty",
+      "park": "Allegheny Portage Railroad National Historic Site",
+      "id": 96
+    },
+    {
+      "eatery": "Pancake Pantry",
+      "attraction": "Ouija Board Inventor’s Tombstone",
+      "park": "Anacostia Park",
+      "id": 97
     }
   ]
 }

@@ -32,6 +32,8 @@ saveButton.addEventListener("click", clickEvent => {
     //     //-----Pulls the name of the selected eatery/park/attraction out of the printed card----
      let eaterySelection = document.getElementById("selected-eatery").innerText;
      let parkSelection = document.getElementById("selected-park").innerText;
+     let attractionSelection = document.getElementById("selected-attraction").innerText;
+     debugger
     //  console.log(parkSelection)
     //  console.log(eaterySelection)
     
@@ -41,11 +43,13 @@ saveButton.addEventListener("click", clickEvent => {
 
         let parks = useParks()
         let savedPark = parks.find(p => p.fullName === parkSelection)
-    
-        console.log(savedEatery)
+        
+        let attractions = useAttractions()
+        let savedAttraction = attractions.find(a => a.name === attractionSelection)
+        
         const newItinerary = {
             "eatery": savedEatery.businessName,
-            "attraction": '',
+            "attraction": savedAttraction.name,
             "park" : savedPark.fullName
                }
         

@@ -12,7 +12,7 @@ export function itineraryList(){
         const lastItem = savedItineraries[savedItineraries.length - 1]
         // console.log(lastItem)
         itineraryHTML = itineraryCard(lastItem)
-        itineraryContainer.innerHTML = itineraryHTML
+        itineraryContainer.innerHTML += itineraryHTML
        
     
         //THIS WILL PRINT ALL ITINERARY OBJECTS

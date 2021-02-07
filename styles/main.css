@@ -84,17 +84,18 @@ select {
 .itinerary-container {
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    align-items: center;
+    flex-direction: column;
     
 }
 
 .itinerary-card {
-    border: 5px green solid;
+    /* border: 3px green solid; */
     /* width: 30vw; */
     margin-bottom: 1em;
     padding-left: 2em;
     padding-right: 2em;
-    background-color: yellow;
+    background-color:lightskyblue;
     border-radius: 2em;
 
 }
