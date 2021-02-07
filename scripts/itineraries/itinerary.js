@@ -1,7 +1,8 @@
 import { getEateries, useEateries } from "../eateries/EateryProvider.js";
+import { getParks, useParks} from "../parks/ParkProvider.js"
+import { getAttractions, useAttractions } from "../attractions/AttractionProvider.js"
 import { saveSelections } from "./itineraryProvider.js";
 
-// import { itineraryList } from "./intineraryList.js"
 
 
 export const itineraryCard = (itineraryObject) => {
@@ -30,22 +31,24 @@ saveButton.addEventListener("click", clickEvent => {
     console.log("this is", clickEvent.target.id)
     //     //-----Pulls the name of the selected eatery/park/attraction out of the printed card----
      let eaterySelection = document.getElementById("selected-eatery").innerText;
+     let parkSelection = document.getElementById("selected-park").innerText;
+    //  console.log(parkSelection)
+    //  console.log(eaterySelection)
     
 
         let eateries = useEateries()
         let savedEatery = eateries.find(e => e.businessName === eaterySelection)
 
-        // let parks = useParks()
-        // let savedPark = parks.find(p => p.fullName === parkSelection)
+        let parks = useParks()
+        let savedPark = parks.find(p => p.fullName === parkSelection)
     
         console.log(savedEatery)
         const newItinerary = {
             "eatery": savedEatery.businessName,
             "attraction": '',
-            "park" : ''
-            
-                    }
-        //  itineraryList(newItinerary)
+            "park" : savedPark.fullName
+               }
+        
          saveSelections(newItinerary)
          
 

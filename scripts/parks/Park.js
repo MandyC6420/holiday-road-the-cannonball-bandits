@@ -15,7 +15,7 @@ export function parkCard (parkObject) {
     return `
     <div class="card, park-card style="width: 18rem;">
         <div class="card-body">
-        <h4 class="card-title">${parkObject.fullName}</h4>
+        <h4 class="card-title" id="selected-park">${parkObject.fullName}</h4>
         <h5>${parkObject.addresses[0].city},${parkObject.addresses[0].stateCode}</h5>
         <img class="park-image" src="../images/mountain.jpg" alt="picture-of-mountain" /> <br>
         <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Details</a>

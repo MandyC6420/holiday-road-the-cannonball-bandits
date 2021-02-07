@@ -1,82 +1,34 @@
 {
   "itineraries": [
     {
-      "eatery": "Hy's Steak House",
-      "attraction": "",
-      "park": "",
-      "id": 57
-    },
-    {
-      "eatery": "The Old Clam House",
-      "attraction": "",
-      "park": "",
-      "id": 58
-    },
-    {
-      "eatery": "Club Paris",
-      "attraction": "",
-      "park": "",
-      "id": 59
-    },
-    {
-      "eatery": "Commander's Palace",
-      "attraction": "",
-      "park": "",
-      "id": 60
-    },
-    {
-      "eatery": "Hudson's Hamburgers",
-      "attraction": "",
-      "park": "",
-      "id": 61
-    },
-    {
       "eatery": "Jack Fry's",
       "attraction": "",
-      "park": "",
-      "id": 62
-    },
-    {
-      "eatery": "Jack Fry's",
-      "attraction": "",
-      "park": "",
-      "id": 63
-    },
-    {
-      "eatery": "St. Elmo Steak House",
-      "attraction": "",
-      "park": "",
-      "id": 64
-    },
-    {
-      "eatery": "El Charro Cafe",
-      "attraction": "",
-      "park": "",
-      "id": 65
-    },
-    {
-      "eatery": "Big Bob Gibson Bar-B-Que",
-      "attraction": "",
-      "park": "",
-      "id": 66
-    },
-    {
-      "eatery": "The Cozy Inn",
-      "attraction": "",
-      "park": "",
-      "id": 67
+      "park": "Anacostia Park",
+      "id": 86
     },
     {
       "eatery": "Gene & Jude's",
       "attraction": "",
-      "park": "",
-      "id": 68
+      "park": "Adams National Historical Park",
+      "id": 87
     },
     {
-      "eatery": "Louis' Lunch",
+      "eatery": "Gene & Jude's",
       "attraction": "",
-      "park": "",
-      "id": 69
+      "park": "Adams National Historical Park",
+      "id": 88
+    },
+    {
+      "eatery": "Gene & Jude's",
+      "attraction": "",
+      "park": "Adams National Historical Park",
+      "id": 89
+    },
+    {
+      "eatery": "St. Elmo Steak House",
+      "attraction": "",
+      "park": "American Memorial Park",
+      "id": 90
     }
   ]
 }

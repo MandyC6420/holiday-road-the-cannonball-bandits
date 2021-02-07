@@ -10,7 +10,7 @@ export function itineraryList(){
         let itineraryHTML = ''
     //PRINTS LAST ITINERARY OBJECT
         const lastItem = savedItineraries[savedItineraries.length - 1]
-        console.log(lastItem)
+        // console.log(lastItem)
         itineraryHTML = itineraryCard(lastItem)
         itineraryContainer.innerHTML = itineraryHTML
        
