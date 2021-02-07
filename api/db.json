@@ -71,6 +71,12 @@
       "attraction": "Ouija Board Inventor’s Tombstone",
       "park": "Anacostia Park",
       "id": 97
+    },
+    {
+      "eatery": "Wall Drug",
+      "attraction": "Teacher’s Hall of Fame",
+      "park": "Booker T Washington National Monument",
+      "id": 98
     }
   ]
 }
