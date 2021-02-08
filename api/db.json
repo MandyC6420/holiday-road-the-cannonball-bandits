@@ -7,106 +7,10 @@
       "id": 86
     },
     {
-      "eatery": "Gene & Jude's",
-      "attraction": "",
+      "eatery": "Buckhorn Exchange",
+      "attraction": "Cabazon Dinosaurs",
       "park": "Adams National Historical Park",
       "id": 87
-    },
-    {
-      "eatery": "Gene & Jude's",
-      "attraction": "",
-      "park": "Adams National Historical Park",
-      "id": 88
-    },
-    {
-      "eatery": "Gene & Jude's",
-      "attraction": "",
-      "park": "Adams National Historical Park",
-      "id": 89
-    },
-    {
-      "eatery": "St. Elmo Steak House",
-      "attraction": "",
-      "park": "American Memorial Park",
-      "id": 90
-    },
-    {
-      "eatery": "St. Elmo Steak House",
-      "attraction": "",
-      "park": "Amistad National Recreation Area",
-      "id": 91
-    },
-    {
-      "eatery": "St. Elmo Steak House",
-      "attraction": "",
-      "park": "Amistad National Recreation Area",
-      "id": 92
-    },
-    {
-      "eatery": "Northwestern Steakhouse",
-      "attraction": "",
-      "park": "Amistad National Recreation Area",
-      "id": 93
-    },
-    {
-      "eatery": "Northwestern Steakhouse",
-      "attraction": "",
-      "park": "Amistad National Recreation Area",
-      "id": 94
-    },
-    {
-      "eatery": "Gene & Jude's",
-      "attraction": "First Kiss Spot of the Obamas",
-      "park": "American Memorial Park",
-      "id": 95
-    },
-    {
-      "eatery": "St. Elmo Steak House",
-      "attraction": "Mini Statue of Liberty",
-      "park": "Allegheny Portage Railroad National Historic Site",
-      "id": 96
-    },
-    {
-      "eatery": "Pancake Pantry",
-      "attraction": "Ouija Board Inventor’s Tombstone",
-      "park": "Anacostia Park",
-      "id": 97
-    },
-    {
-      "eatery": "Wall Drug",
-      "attraction": "Teacher’s Hall of Fame",
-      "park": "Booker T Washington National Monument",
-      "id": 98
-    },
-    {
-      "eatery": "Red Pepper",
-      "attraction": "Grave of Marie Laveau, the Voodoo Queen",
-      "park": "Boston National Historical Park",
-      "id": 99
-    },
-    {
-      "eatery": "Northwestern Steakhouse",
-      "attraction": "Mini Statue of Liberty",
-      "park": "Ala Kahakai National Historic Trail",
-      "id": 100
-    },
-    {
-      "eatery": "Northwestern Steakhouse",
-      "attraction": "Mini Statue of Liberty",
-      "park": "Ala Kahakai National Historic Trail",
-      "id": 101
-    },
-    {
-      "eatery": "The Cozy Inn",
-      "attraction": "Teacher’s Hall of Fame",
-      "park": "Allegheny Portage Railroad National Historic Site",
-      "id": 102
-    },
-    {
-      "eatery": "Haven Brothers Diner",
-      "attraction": "Elvis Memorial Chapel",
-      "park": "Bluestone National Scenic River",
-      "id": 103
     }
   ]
 }
