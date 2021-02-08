@@ -34,7 +34,7 @@ const renderEaterySelect = eateriesArray => {
         <option value="0">Select an eatery.</option>
         ${eateriesArray.map((currentEatery)=> {
         const eateryName = currentEatery.businessName
-        return `<option>${eateryName}</option>`
+        return `<option id="eatery-name">${eateryName}</option>`
 
         })} 
     </select>
@@ -50,13 +50,24 @@ const eventHub = document.querySelector(".eateries-Dropdown")
 
 eventHub.addEventListener("change", changeEvent => {
     //console log when the dropdown item is changed; tests to see if listener is detecting change as expected
-    console.log("you selected an item from", changeEvent.target.value)
+    // console.log("you selected an item from", changeEvent.target.value)
 
     
    let eateries = useEateries()
     for(const eatery of eateries){
         if(eatery.businessName === changeEvent.target.value){
             document.querySelector(".eateryList").innerHTML = eateryCard(eatery)
+        }
+        else if(changeEvent.target.value == 0){
+            document.querySelector(".eateryList").innerHTML = `
+            <h1>Choose an eatery.</h1>
+            <h4>Add a restaurant to your itinerary using the dropbox above.</h4>
+            <img
+            class="eatery-image"
+            src="../images/restaurant-clipart.jpg"
+            alt="drawing-of-restaurant"
+          />
+            `
         }
         
     }

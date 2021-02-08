@@ -4,6 +4,7 @@
 .flex-container {
   display: flex;
   justify-content: space-around;
+  flex-direction: row;
   /* border: 1px solid black; */
 }
 
@@ -39,33 +40,104 @@
 }
 
 header {
-    height: 25vh;
-    background-color:azure
+   
+    height: 32vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items:center;
+    /* background-color: rgb(235, 233, 152); */
+    padding: 1em;
+    margin-top: 1em
 }
 
-#card-div{
+/* #card-div{
     flex-basis: 25%;
-}
+} */
 
 footer {
+    
     text-align: center;
 }
 
-.dropdowns {
-    align-items: center;
-    height: 5vh;
-    
-}
 select {
-    height: 4.5vh;
+    height: 6vh;
 }
 
 .attraction-image{
     max-width: 75%;
 }
 
+.wide-modal {
+    width: 70vw
+
+}
 .attraction-more-details{
     border: solid black 4px;
 }
 
+
+.save-button-div {
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 1em;
+    
+    
+}
+
+.itinerary-Preview {
+    margin-top: 1em;
+    background-color: rgb(235, 233, 152);
+    border-radius: 2em;
+}
+
+.itinerary-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.itinerary-card {
+    /* border: 3px green solid; */
+    /* width: 30vw; */
+    margin-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: white;
+    border-radius: 2em;
+    width: 90% 
+    
+}
+
+
+#logo-image {
+  width: 15vw;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    width: 80vw;
+    margin: .5em;
+    /* background-color: rgb(235, 233, 152); */
+    
+    
+}
+
+.sidebar-container {
+   
+    margin-top: 4.0em;
+    background-color: lightgreen;
+    width: 20vw;
+    border-radius: 1em;
+    padding-top: 1em;
+}
+
+.dropdowns {
+    display: flex;
+    
+}
 
