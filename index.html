@@ -12,8 +12,8 @@
   </head>
 
   <body>
-    <header>
-      <logo><img src="" alt="" srcset="" /></logo>
+    <header class="">
+      <logo><img id="logo-image" src="./images/motherland logo (1).png" alt="company-logo" srcset="" /></logo>
       <nav></nav>
     </header>
 
@@ -46,31 +46,23 @@
 
 
 
-    <main>
-     
-      <article class="itinerary-container"> 
-        <h6>Make your selections. When you are finished, click "Save Itinerary."</h6>
-        <h6>Your saved itinerary will post here.</h6>
-      
-      </article>
-      
-      <div class="save-button-div">
-        <button class="save-button" id="selection-save">Save Itinerary</button>
-      </div>
+    <main class="flex-container">
 
+    <article id="main-content">
+      
       <section class="dropdowns flex-container">
-        <div class="parks-Dropdown"></div>
+        <div class="parks-Dropdown dropdown"></div>
 
-        <div class='attraction-Dropdown'></div>
+        <div class='attraction-Dropdown dropdown'></div>
 
-        <div class="eateries-Dropdown"></div>
+        <div class="eateries-Dropdown dropdown"></div>
       </section>
 
       <section class="itinerary-Preview flex-container">
         
         <div class="parksList" id="card-div">
-          <h1>Choose a National Park.</h1>
-          <h4>Add a National Park to your itinerary using the dropbox above.</h4>
+          <h3>Choose a National Park.</h3>
+          <h5>Add a National Park to your itinerary using the dropbox above.</h5>
           <img
             class="park-image"
             src="../images/mountain.jpg"
@@ -85,8 +77,8 @@
           <div class='attraction-details'></div>
 
           <div class="attractionsList" id="card-div">
-            <h1>Choose an Attraction.</h1>
-            <h4>Add an attraction to your itinerary using the dropbox above.</h4>
+            <h3>Choose an Attraction.</h3>
+            <h5>Add an attraction to your itinerary using the dropbox above.</h5>
             <img
               class="attraction-image"
               src="../images/attraction-clipart.jpg"
@@ -96,17 +88,40 @@
         </div>
     
     
-    
-        
         <div class="eateryList" id="card-div">
-          <h1>Choose an eatery.</h1>
-          <h4>Add a restaurant to your itinerary using the dropbox above.</h4>
+          <h3>Choose an eatery.</h3>
+          <h5>Add a restaurant to your itinerary using the dropbox above.</h5>
           <img
             class="eatery-image"
             src="../images/restaurant-clipart.jpg"
             alt="drawing-of-restaurant"
           />
         </div>
+      </section>
+      </article>
+
+      <!--SIDEBAR-->
+      <section class="sidebar-container">
+        <div>
+          <h4 style="text-align: center"><b>Saving Itineraries</b></h4><br>
+        </div>
+        <section class="site-instructions"> 
+          <ol>
+            <li>Select a park, attraction, and eatery.</li>
+            <li>Click the "Save Itinerary" button.</li>
+            <li>See your saved itineraries below.</li>
+          </ol>
+          </section>
+        <div class="save-button-div">
+          <button class="save-button" id="selection-save">Save Itinerary</button>
+        </div>
+        
+        
+        <article class="itinerary-container"> 
+        
+        </article>
+        
+       
       </section>
     </main>
 

@@ -33,7 +33,6 @@ saveButton.addEventListener("click", clickEvent => {
      let eaterySelection = document.getElementById("selected-eatery").innerText;
      let parkSelection = document.getElementById("selected-park").innerText;
      let attractionSelection = document.getElementById("selected-attraction").innerText;
-     debugger
     //  console.log(parkSelection)
     //  console.log(eaterySelection)
     

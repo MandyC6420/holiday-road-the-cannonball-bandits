@@ -77,6 +77,36 @@
       "attraction": "Teacher’s Hall of Fame",
       "park": "Booker T Washington National Monument",
       "id": 98
+    },
+    {
+      "eatery": "Red Pepper",
+      "attraction": "Grave of Marie Laveau, the Voodoo Queen",
+      "park": "Boston National Historical Park",
+      "id": 99
+    },
+    {
+      "eatery": "Northwestern Steakhouse",
+      "attraction": "Mini Statue of Liberty",
+      "park": "Ala Kahakai National Historic Trail",
+      "id": 100
+    },
+    {
+      "eatery": "Northwestern Steakhouse",
+      "attraction": "Mini Statue of Liberty",
+      "park": "Ala Kahakai National Historic Trail",
+      "id": 101
+    },
+    {
+      "eatery": "The Cozy Inn",
+      "attraction": "Teacher’s Hall of Fame",
+      "park": "Allegheny Portage Railroad National Historic Site",
+      "id": 102
+    },
+    {
+      "eatery": "Haven Brothers Diner",
+      "attraction": "Elvis Memorial Chapel",
+      "park": "Bluestone National Scenic River",
+      "id": 103
     }
   ]
 }
