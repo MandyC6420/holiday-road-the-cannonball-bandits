@@ -11,6 +11,12 @@
       "attraction": "Cabazon Dinosaurs",
       "park": "Adams National Historical Park",
       "id": 87
+    },
+    {
+      "eatery": "The Old Clam House",
+      "attraction": "Elvis Memorial Chapel",
+      "park": "African American Civil War Memorial",
+      "id": 88
     }
   ]
 }
